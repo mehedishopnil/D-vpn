@@ -3,6 +3,7 @@ import GetPivien from './GetPivien/GetPivien';
 import { Parallax } from 'react-parallax';
 import spinAbstract from '../../../src/assets/OBJECTS.svg';
 import AvailableServers from './AvailableServers/AvailableServers';
+import MyVPN from './MyVPN/MyVPN';
 
 const Home = () => {
   return (
@@ -23,6 +24,8 @@ const Home = () => {
       </div>
 
       <AvailableServers></AvailableServers>
+
+      <MyVPN></MyVPN>
       
     </div>
   );

@@ -5,7 +5,7 @@ import { IoImage } from "react-icons/io5";
 const AvailableServers = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 ">
-      <div className="flex justify-center w-[589px] bg-[#ffffff10] space-y-2 px-6 lg:px-10 py-8 rounded-xl">
+      <div className="flex justify-center w-[589px] bg-[#ffffff10] border border-[#ffffff23] space-y-2 px-6 lg:px-10 py-8 rounded-xl">
         {/* Server List Container */}
       <div className="rounded-xl bg-white w-[384px] p-4">
         <h1 className="text-xl lg:text-2xl font-semibold pb-4">
@@ -36,7 +36,7 @@ const AvailableServers = () => {
       </div>
 
       {/* Content Section */}
-      <div className="flex flex-col justify-center text-center lg:text-left space-y-7">
+      <div className="flex flex-col justify-center w-10/12 text-center lg:text-left space-y-7">
         <h2 className="text-3xl lg:text-5xl  leading-tight text-white">
           More Than 100 Server Options are Available
         </h2>
