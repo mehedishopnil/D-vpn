@@ -1,10 +1,11 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import logo from "../../../assets/Logo.svg";
 
 const Header = () => {
   return (
     <div>
-      <div className="navbar text-white bg-[#0F0F0F]">
+      <div className=" container mx-auto navbar text-white py-5 px-8">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -40,41 +41,44 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">daisyUI</a>
+          <Link to="/" className="btn btn-ghost ">
+            <img src={logo} alt="Logo" className=" h-[71px] w-[198px]" />
+          </Link>
         </div>
-
 
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
-            
             <li>
               <details>
-                <summary><Link>Features</Link></summary> 
-              </details>
-            </li>
-
-
-            <li>
-              <details>
-                <summary><Link>Download</Link></summary> 
-              </details>
-            </li>
-
-
-            <li>
-              <details>
-                <summary><Link>Resources</Link></summary> 
+                <summary>
+                  <Link>Features</Link>
+                </summary>
               </details>
             </li>
 
             <li>
-                <Link>Pricing</Link>
+              <details>
+                <summary>
+                  <Link>Download</Link>
+                </summary>
+              </details>
             </li>
 
             <li>
-                <Link>Business VPN</Link>
+              <details>
+                <summary>
+                  <Link>Resources</Link>
+                </summary>
+              </details>
             </li>
-            
+
+            <li>
+              <Link>Pricing</Link>
+            </li>
+
+            <li>
+              <Link>Business VPN</Link>
+            </li>
           </ul>
         </div>
         <div className="navbar-end space-x-5">
