@@ -4,6 +4,7 @@ import { Parallax } from 'react-parallax';
 import spinAbstract from '../../../src/assets/OBJECTS.svg';
 import AvailableServers from './AvailableServers/AvailableServers';
 import MyVPN from './MyVPN/MyVPN';
+import InternetSecurity from './InternetSecurity/InternetSecurity';
 
 const Home = () => {
   return (
@@ -26,7 +27,7 @@ const Home = () => {
       <AvailableServers></AvailableServers>
 
       <MyVPN></MyVPN>
-      
+      <InternetSecurity></InternetSecurity>
     </div>
   );
 };
