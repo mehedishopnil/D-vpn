@@ -5,6 +5,7 @@ import spinAbstract from '../../../src/assets/OBJECTS.svg';
 import AvailableServers from './AvailableServers/AvailableServers';
 import MyVPN from './MyVPN/MyVPN';
 import InternetSecurity from './InternetSecurity/InternetSecurity';
+import DecentralisedVPN from './DecentralisedVPN/DecentralisedVPN';
 
 const Home = () => {
   return (
@@ -26,8 +27,9 @@ const Home = () => {
 
       <AvailableServers></AvailableServers>
 
-      <MyVPN></MyVPN>
-      <InternetSecurity></InternetSecurity>
+      <MyVPN />
+      <InternetSecurity />
+      <DecentralisedVPN />
     </div>
   );
 };
