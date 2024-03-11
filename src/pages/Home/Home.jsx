@@ -6,6 +6,8 @@ import AvailableServers from './AvailableServers/AvailableServers';
 import MyVPN from './MyVPN/MyVPN';
 import InternetSecurity from './InternetSecurity/InternetSecurity';
 import DecentralisedVPN from './DecentralisedVPN/DecentralisedVPN';
+import VPNRoadmap from './VPNRoadmap/VPNRoadmap';
+import TotalSupply from './TotalSupply/TotalSupply';
 
 const Home = () => {
   return (
@@ -28,8 +30,14 @@ const Home = () => {
       <AvailableServers></AvailableServers>
 
       <MyVPN />
+
       <InternetSecurity />
+
       <DecentralisedVPN />
+
+      <VPNRoadmap />
+      
+      <TotalSupply />
     </div>
   );
 };
