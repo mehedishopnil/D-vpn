@@ -8,6 +8,7 @@ import InternetSecurity from './InternetSecurity/InternetSecurity';
 import DecentralisedVPN from './DecentralisedVPN/DecentralisedVPN';
 import VPNRoadmap from './VPNRoadmap/VPNRoadmap';
 import TotalSupply from './TotalSupply/TotalSupply';
+import GlobalServer from './GlobalServer/GlobalServer';
 
 const Home = () => {
   return (
@@ -36,8 +37,10 @@ const Home = () => {
       <DecentralisedVPN />
 
       <VPNRoadmap />
-      
+
       <TotalSupply />
+
+      <GlobalServer />
     </div>
   );
 };
