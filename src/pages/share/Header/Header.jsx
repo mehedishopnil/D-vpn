@@ -42,7 +42,7 @@ const Header = () => {
             </ul>
           </div>
           <Link to="/" className="btn btn-ghost ">
-            <img src={logo} alt="Logo" className=" h-[71px] w-[198px]" />
+            <img src={logo} alt="Logo" className=" h-[77px] w-[285px]" />
           </Link>
         </div>
 
