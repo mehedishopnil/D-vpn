@@ -87,16 +87,12 @@ const DecentralisedVPN = () => {
         ></div>
       </div>
 
-      {/*background image on the left side middle */}
-      <div className="absolute top-0 left-0 bottom-0 w-[645px] h-[745px] rounded-l-full overflow-hidden">
-        <div
-          className="absolute top-0 left-0 right-0 bottom-0 bg-cover bg-no-repeat"
-          style={{
-            backgroundImage: `url${DecentralisedbgImage}`, // Add your background image URL here
-            filter: "blur(60px)",
-          }}
-        ></div>
-      </div>
+      {/* Background image on the left side middle */}
+<div className="absolute top-1/2 left-0 transform -translate-y-1/2 rotate-180 rounded-l-full overflow-hidden">
+  <img className="w-full h-full mb-[200px]" src={DecentralisedbgImage} alt="" />
+</div>
+
+
 
     </div>
   );

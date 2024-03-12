@@ -1,6 +1,7 @@
 import icon1 from "../../../assets/security.svg";
 import icon2 from "../../../assets/loop.svg";
 import icon3 from "../../../assets/connctivity.svg";
+import rightSideBg from "../../../assets/rightSideBg.svg";
 
 const MyVPN = () => {
   return (
@@ -10,7 +11,7 @@ const MyVPN = () => {
       </h1>
 
       <div className="flex justify-center mt-[50px] gap-5">
-        <div className="space-y-5 w-[411px] p-8 rounded-lg bg-[#ffffff10] border border-[#ffffff23] ">
+        <div className="space-y-5 w-[411px] p-8 rounded-lg bg-[#ffffff10] border border-[#ffffff23] bg-blur">
           <img
             className="w-[73px] h-[73px] p-2 rounded-lg bg-[#00000010] border border-[#ffffff23]"
             src={icon1}
@@ -36,18 +37,20 @@ const MyVPN = () => {
           </p>
         </div>
 
-        <div className="space-y-5 w-[411px] p-8 rounded-lg bg-[#ffffff10] border border-[#ffffff23] ">
-          <img
-            className="w-[73px] h-[73px] p-2 rounded-lg bg-[#00000010] border border-[#ffffff23]"
-            src={icon3}
-            alt="MyVPN"
-          />
-          <h1 className="text-white text-2xl">Stronger Data Protection</h1>
-          <p className="w-[333px] text-white text-base font-light">
-            Lorem ipsum dolor sit amet consectetur. Sapien porttitor purus ut
-            tincidunt egestas. Lacinia ac tortor.
-          </p>
-        </div>
+        <div className="space-y-5 w-[411px] p-8 rounded-lg bg-[#ffffff10] border border-[#ffffff23] relative overflow-hidden">
+  <div className="absolute inset-0 bg-gradient-to-r from-[#ffffff10] to-transparent filter blur-[5px]"></div>
+  <img
+    className="w-[73px] h-[73px] p-2 rounded-lg bg-[#00000010] border border-[#ffffff23]"
+    src={icon3}
+    alt="MyVPN"
+  />
+  <h1 className="text-white text-2xl">Stronger Data Protection</h1>
+  <p className="w-[333px] text-white text-base font-light">
+    Lorem ipsum dolor sit amet consectetur. Sapien porttitor purus ut
+    tincidunt egestas. Lacinia ac tortor.
+  </p>
+</div>
+
       </div>
 
       {/* Circular gradient on the left side with simulated blur */}
@@ -70,6 +73,11 @@ const MyVPN = () => {
             filter: "blur(280px)",
           }}
         ></div>
+      </div>
+
+      {/* Circular gradient on the right side with simulated blur */}
+      <div className="absolute -top-[150px] right-0 bottom-0 w-[645px] h-[745px] rounded-l-full overflow-hidden">
+        <img className="w-[1163.86px] h-[931.62px]" src={rightSideBg} alt="" />
       </div>
     </div>
   );
