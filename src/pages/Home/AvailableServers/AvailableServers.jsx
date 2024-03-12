@@ -1,38 +1,37 @@
-import React from "react";
 import { FaArrowRight } from "react-icons/fa6";
 import { IoImage } from "react-icons/io5";
 
 const AvailableServers = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 ">
+    <div className="relative grid grid-cols-1 lg:grid-cols-2 ">
       <div className="flex justify-center w-[589px] bg-[#ffffff10] border border-[#ffffff23] space-y-2 px-6 lg:px-10 py-8 rounded-xl">
         {/* Server List Container */}
-      <div className="rounded-xl bg-white w-[384px] p-4">
-        <h1 className="text-xl lg:text-2xl font-semibold pb-4">
-          Available Servers
-        </h1>
+        <div className="rounded-xl bg-white w-[384px] p-4">
+          <h1 className="text-xl lg:text-2xl font-semibold pb-4">
+            Available Servers
+          </h1>
 
-        {/* Loop through server entries */}
-        {[1, 2, 3, 4, 5].map((server) => (
-          <div
-            key={server}
-            className="grid grid-cols-2 rounded-lg bg-[#F2F8F7] p-4 mb-4"
-          >
-            {/* Server Information */}
-            <div className="flex items-center gap-3">
-              <IoImage />
-              <p>United States</p>
-            </div>
+          {/* Loop through server entries */}
+          {[1, 2, 3, 4, 5].map((server) => (
+            <div
+              key={server}
+              className="grid grid-cols-2 rounded-lg bg-[#F2F8F7] p-4 mb-4"
+            >
+              {/* Server Information */}
+              <div className="flex items-center gap-3">
+                <IoImage />
+                <p>United States</p>
+              </div>
 
-            {/* Checkbox Section */}
-            <div className="flex justify-end items-center">
-              <label>
-                <input type="checkbox" className="checkbox" />
-              </label>
+              {/* Checkbox Section */}
+              <div className="flex justify-end items-center">
+                <label>
+                  <input type="checkbox" className="checkbox" />
+                </label>
+              </div>
             </div>
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
       </div>
 
       {/* Content Section */}
@@ -49,6 +48,28 @@ const AvailableServers = () => {
         <button className="flex w-[230px] btn bg-[#701CB0] rounded-full text-sm font-extrabold px-8 py-3 text-white border-[#55585E] hover:bg-[#592e8e]">
           Download Apps <FaArrowRight />
         </button>
+      </div>
+
+      {/* Circular gradient on the right side with simulated blur */}
+      <div className="absolute -top-[150px] right-0 bottom-0 w-[645px] h-[745px] rounded-l-full overflow-hidden">
+        <div
+          className="absolute top-0 left-0 right-0 bottom-0  bg-gradient-to-l from-[#9C25EA75] to-[#701CB060] rounded-l-full"
+          style={{
+            transform: "translateX(85%)",
+            filter: "blur(90px)",
+          }}
+        ></div>
+      </div>
+
+      {/* Circular gradient on the left side with simulated blur */}
+      <div className="absolute -top-[250] left-0 bottom-0 w-[645px] h-[745px] rounded-r-full overflow-hidden">
+        <div
+          className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-[#9C25EA75] to-[#701CB060] rounded-r-full"
+          style={{
+            transform: "translateX(-90%)",
+            filter: "blur(80px)",
+          }}
+        ></div>
       </div>
     </div>
   );
