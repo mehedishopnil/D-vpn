@@ -2,7 +2,7 @@ import dotIcon from "../../../assets/dvpnDotIcon.svg";
 
 const VPNRoadmap = () => {
     return (
-        <div>
+        <div className="py-10">
             <h1 className="text-[48px] text-center text-white ">D-VPN Roadmap</h1>
 
             <div className="flex justify-center gap-5 pt-[75px]">

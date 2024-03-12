@@ -28,8 +28,8 @@ const Home = () => {
         </div>
       </div>
 
-      <AvailableServers></AvailableServers>
-
+      <AvailableServers />
+      
       <MyVPN />
 
       <InternetSecurity />

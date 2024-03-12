@@ -3,7 +3,7 @@ import DecentralisedbgImage from "../../../assets/9057764-02 1.svg";
 
 const DecentralisedVPN = () => {
   return (
-    <div className="py-[214px] relative">
+    <div className="my-[150px] relative">
       <div className="relative z-10">
         <h1 className="text-[48px] text-center text-white ">
           key features of the <br /> decentralised VPN app
@@ -87,8 +87,8 @@ const DecentralisedVPN = () => {
         ></div>
       </div>
 
-      {/* Circular gradient on the left side with simulated blur */}
-      <div className="absolute top-[600px] left-0 bottom-0 w-[645px] h-[745px] rounded-l-full overflow-hidden">
+      {/*background image on the left side middle */}
+      <div className="absolute top-0 left-0 bottom-0 w-[645px] h-[745px] rounded-l-full overflow-hidden">
         <div
           className="absolute top-0 left-0 right-0 bottom-0 bg-cover bg-no-repeat"
           style={{

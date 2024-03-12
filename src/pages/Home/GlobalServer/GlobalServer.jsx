@@ -7,7 +7,7 @@ const GlobalServer = () => {
   };
 
   return (
-    <div className="w-full bg-cover  bg-no-repeat pt-20" style={sectionStyle}>
+    <div className="w-full bg-cover  bg-no-repeat pt-10" style={sectionStyle}>
       <div className="p-16 text-white text-center">
         <p className="text-[24px] font-bold text-[#701CB0]">
           Global Server Network

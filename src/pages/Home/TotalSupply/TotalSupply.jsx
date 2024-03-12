@@ -1,41 +1,56 @@
-import React, { useEffect } from 'react';
-import ApexCharts from 'react-apexcharts'
-import './TotalSupply.css'
+import React, { useEffect } from "react";
+import ApexCharts from "react-apexcharts";
+import "./TotalSupply.css";
 
+// Functional component for TotalSupply
 const TotalSupply = () => {
-    const chartOptions = {
-        labels: ['Private round', 'Private round', 'Private round', 'Private round'],
-        theme: {
-          palette: 'palette1',
-        },
-      };
-      const labelColor = {
-        style:{
-          colors: ['#ffffff', '#ffffff', '#ffffff', '#ffffff'],
-        }
-      }
-    
-      const chartSeries = [10, 20, 30, 40];
-      const legendPosition = 'bottom';
-    
+  // Configuration options for ApexCharts
+  const chartOptions = {
+    labels: [
+      "Private round",
+      "Private round",
+      "Private round",
+      "Private round",
+    ],
+    theme: {
+      palette: "palette1",
+    },
+  };
 
+  // Styling for label colors
+  const labelColor = {
+    style: {
+      colors: ["#ffffff", "#ffffff", "#ffffff", "#ffffff"],
+    },
+  };
+
+  // Data series for ApexCharts
+  const chartSeries = [10, 20, 30, 40];
+  const legendPosition = "bottom";
 
   return (
-    <div>
-      <div className="grid grid-cols-2 w=[1268px] my-[214px] bg-[#63079F30] p-8">
-      <div className="flex justify-center items-center text-white">
-          <ApexCharts 
-            type="donut" 
-            height={800} 
+    <div className="my-[150px]">
+      <div className="grid grid-cols-2 w=[1268px] border border-[#ffffff30] rounded-xl  shadow-inner shadow-[#63079F]  bg-[#FFFFFF20] p-8">
+
+        {/* Section for ApexCharts donut chart */}
+        <div className="flex flex-col justify-center items-center text-white relative">
+          <ApexCharts
+            type="donut"
+            height={800}
             width={500}
             series={chartSeries}
             options={chartOptions}
             legend={legendPosition}
-            dataLabels= {labelColor}
-            
+            dataLabels={labelColor}
           />
-        </div>
 
+          {/* Position the text in the middle of the chart */}
+          <div className="absolute bottom-10 inset-0 flex items-center justify-center">
+            <h1 className="text-[18px] font-bold -ml-28">Total Supply</h1>
+            <h1 className="text-[22px] font-sm pt-16 -ml-28">50 000 000</h1>
+            
+          </div>
+        </div>
 
         <div className="flex flex-col gap-3 ">
           <div className="flex justify-between items-center rounded-md w-[521px] h-[74px] px-[25.5px] py-[2.5px] border border-[#ffffff30] bg-[#ffffff10] ">
