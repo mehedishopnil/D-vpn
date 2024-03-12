@@ -77,7 +77,7 @@ const DecentralisedVPN = () => {
       </div>
 
       {/* Circular gradient on the right side with simulated blur */}
-      <div className="absolute top-[600px] right-0 bottom-0 w-[645px] h-[745px] rounded-l-full overflow-hidden">
+      <div className="absolute top-[400px] right-0 bottom-0 w-[645px] h-[745px] rounded-l-full overflow-hidden">
         <div
           className="absolute top-0 left-0 right-0 bottom-0  bg-gradient-to-l from-[#9C25EA75] to-[#701CB060] rounded-l-full"
           style={{

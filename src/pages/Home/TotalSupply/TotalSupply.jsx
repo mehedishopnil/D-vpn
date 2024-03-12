@@ -29,7 +29,7 @@ const TotalSupply = () => {
   const legendPosition = "bottom";
 
   return (
-    <div className="my-[150px]">
+    <div className="my-[150px] relative">
       <div className="grid grid-cols-2 w=[1268px] border border-[#ffffff30] rounded-xl  shadow-inner shadow-[#63079F]  bg-[#FFFFFF20] p-8">
 
         {/* Section for ApexCharts donut chart */}
@@ -171,6 +171,31 @@ const TotalSupply = () => {
           </div>
         </div>
       </div>
+
+    {/* Circular gradient on the right side with simulated blur */}
+      <div className="absolute -top-[150px] right-0 bottom-0 w-[645px] h-[745px] rounded-l-full overflow-hidden">
+        <div
+          className="absolute top-0 left-0 right-0 bottom-0  bg-gradient-to-l from-[#9C25EA75] to-[#701CB060] rounded-l-full"
+          style={{
+            transform: "translateX(80%)",
+            filter: "blur(60px)",
+          }}
+        ></div>
+      </div>
+
+
+   {/* Circular gradient on the left side with simulated blur */}
+<div className="absolute top-[350px] left-0 bottom-0 w-[645px] h-[745px] rounded-r-full overflow-hidden">
+  <div
+    className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-[#9C25EA75] to-[#701CB060] rounded-r-full"
+    style={{
+      transform: "translateX(-80%)",
+      filter: "blur(60px)",
+    }}
+  ></div>
+</div>
+
+
     </div>
   );
 };

@@ -1,11 +1,11 @@
 import securityIcon from "../../../assets/internetSecurity.svg";
 import { IoCheckmarkCircleSharp } from "react-icons/io5";
 import { FaArrowDown, FaArrowUp } from "react-icons/fa6";
-import halfPie from '../../../assets/halfPieIcone.svg'
+import halfPie from "../../../assets/halfPieIcone.svg";
 
 const InternetSecurity = () => {
   return (
-    <div className="flex flex-col lg:flex-row justify-center items-center lg:space-x-10 px-5 lg:px-20 py-10 lg:py-16">
+    <div className="relative flex flex-col lg:flex-row justify-center items-center lg:space-x-10 px-5 lg:px-20 py-10 lg:py-16">
       <div className="text-center lg:text-left lg:w-1/2 space-y-7 relative">
         <h2 className="text-white text-4xl lg:text-5xl font-bold leading-tight">
           Access the Internet Securely and Privately
@@ -85,18 +85,25 @@ const InternetSecurity = () => {
           className="mx-auto lg:mx-0 lg:w-full lg:max-w-lg"
         />
 
-        <div className=" flex flex-col justify-center items-center w-[240px] h-[187px] p-2 -mt-20 rounded-lg border border-[#6b686d] bg-[#FFFFFF25] gap-5 " >
-        <img
-          src={halfPie}
-          alt="hero"
-          className=""
-        />
-        <h1 className="text-white font-bold text-[28px] -mt-10">57,5</h1>
-        <div className="w-[104px] h-[12px] rounded-full bg-white"></div>
-        <div className="w-[158px] h-[12px] rounded-full -mt-3 bg-white"></div>
+        <div className=" flex flex-col justify-center items-center w-[240px] h-[187px] p-2 -mt-20 rounded-lg border border-[#6b686d] bg-[#FFFFFF25] gap-5 ">
+          <img src={halfPie} alt="hero" className="" />
+          <h1 className="text-white font-bold text-[28px] -mt-10">57,5</h1>
+          <div className="w-[104px] h-[12px] rounded-full bg-white"></div>
+          <div className="w-[158px] h-[12px] rounded-full -mt-3 bg-white"></div>
         </div>
-
       </div>
+
+      {/* Circular gradient on the right side with simulated blur */}
+<div className="absolute top-[200px] right-0 bottom-0 w-[445px] h-[845px] rounded-l-full overflow-hidden">
+  <div
+    className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-l from-[#9C25EA75] to-[#701CB030] rounded-l-full"
+    style={{
+      transform: "translateX(60%)",
+      filter: "blur(100px)",
+    }}
+  ></div>
+</div>
+
     </div>
   );
 };
