@@ -1,5 +1,6 @@
 import backgroundImage from "../../../assets/earthShape.svg";
 import iphoneIcon from "../../../assets/iPhone 14 Pro.svg";
+import { TbWorld } from "react-icons/tb";
 
 const GlobalServer = () => {
   // Inline style for background image
@@ -27,13 +28,17 @@ const GlobalServer = () => {
       </div>
 
       {/* Server features section */}
-      <div className="flex flex-col gap-5 items-center justify-center">
+      <div className="relative flex flex-col gap-5 items-center justify-center">
         <div>
           <img
             className="w-3/4 lg:w-full lg:h-1/2"
             src={iphoneIcon}
             alt="iPhone Icon"
           />
+
+          <div className="absolute w-[108px] h-[108px] bg-[#701CB0] rounded-full top-[400px] right-[400px] bottom-0">
+              <p className="absolute text-white text-6xl top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"><TbWorld /></p>
+          </div>
         </div>
 
         {/* Server features grid */}

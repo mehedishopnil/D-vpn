@@ -1,10 +1,12 @@
 import { FaArrowRight } from "react-icons/fa6";
 import { IoImage } from "react-icons/io5";
+import { SiSpringsecurity } from "react-icons/si";
+import { TbWorldSearch } from "react-icons/tb";
 
 const AvailableServers = () => {
   return (
     <div className="relative lg:grid lg:grid-cols-2">
-      <div className="lg:flex lg:justify-center lg:w-[589px] bg-[#ffffff10] border border-[#ffffff23] space-y-4 lg:space-y-2 px-6 lg:px-10 py-8 rounded-xl">
+      <div className="relative lg:flex lg:justify-center lg:w-[589px] bg-[#ffffff10] border border-[#ffffff23] space-y-4 lg:space-y-2 px-6 lg:px-10 py-8 rounded-xl">
         {/* Server List Container */}
         <div className="rounded-xl bg-white p-4">
           <h1 className="text-xl lg:text-2xl font-semibold pb-4">
@@ -31,6 +33,14 @@ const AvailableServers = () => {
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="flex items-center justify-center top-16 -left-5 absolute rounded-2xl bottom-0 bg-[#701CB0] w-[64px] h-[64px]">
+          <p className="flex text-2xl text-white "><SiSpringsecurity /></p>
+        </div>
+
+        <div className="flex items-center justify-center bottom-16 -right-5 absolute rounded-2xl bottom-0 bg-[#701CB0] w-[64px] h-[64px]">
+          <p className="flex text-2xl text-white "><TbWorldSearch /></p>
         </div>
       </div>
 
