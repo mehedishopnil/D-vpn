@@ -1,5 +1,4 @@
 import GetPivien from "./GetPivien/GetPivien";
-import { Parallax } from "react-parallax";
 import spinAbstract from "../../../src/assets/OBJECTS.svg";
 import AvailableServers from "./AvailableServers/AvailableServers";
 import MyVPN from "./MyVPN/MyVPN";
@@ -18,6 +17,7 @@ const Home = () => {
       <div className="relative">
         <Stars></Stars>
       </div>
+      
       <GetPivien />
 
       

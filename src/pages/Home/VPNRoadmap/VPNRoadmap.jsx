@@ -2,16 +2,19 @@ import dotIcon from "../../../assets/dvpnDotIcon.svg";
 
 const VPNRoadmap = () => {
   return (
-    <div className="py-10 relative">
+    <div className="my-[150px] relative">
+      {/* Roadmap Title */}
       <h1 className="text-[48px] text-center text-white ">D-VPN Roadmap</h1>
 
-      <div className="flex justify-center gap-5 pt-[75px]">
-        <div>
-          <p className="text-[11px] font-light text-white mb-10">
+      {/* Roadmap Items */}
+      <div className="flex flex-col items-center gap-10 pt-[75px] sm:flex-row sm:justify-center sm:gap-5">
+        {/* Roadmap Item 1 */}
+        <div className="w-full sm:w-[412px]">
+          <p className="text-[11px] font-light text-white mb-5 sm:mb-10">
             END OF Q4 2021
           </p>
-          <div className="w-[412px] rounded-xl border border-[#ffffff30]  bg-black px-5 py-10">
-            <div className="flex items-center gap-10 ">
+          <div className="rounded-xl border border-[#ffffff30] bg-black px-5 py-10">
+            <div className="flex items-center gap-5">
               <img src={dotIcon} alt="" />
               <h1 className="text-[24px] text-white">Define goals</h1>
             </div>
@@ -23,12 +26,13 @@ const VPNRoadmap = () => {
           </div>
         </div>
 
-        <div>
-          <p className="text-[11px] font-light text-white mb-10">
+        {/* Roadmap Item 2 */}
+        <div className="w-full sm:w-[412px]">
+          <p className="text-[11px] font-light text-white mb-5 sm:mb-10">
             END OF Q4 2021
           </p>
-          <div className="w-[412px] rounded-xl border border-[#ffffff30]  bg-black px-5 py-10">
-            <div className="flex items-center gap-10 ">
+          <div className="rounded-xl border border-[#ffffff30] bg-black px-5 py-10">
+            <div className="flex items-center gap-5">
               <img src={dotIcon} alt="" />
               <h1 className="text-[24px] text-white">Define goals</h1>
             </div>
@@ -40,12 +44,13 @@ const VPNRoadmap = () => {
           </div>
         </div>
 
-        <div>
-          <p className="text-[11px] font-light text-white mb-10">
+        {/* Roadmap Item 3 */}
+        <div className="w-full sm:w-[412px]">
+          <p className="text-[11px] font-light text-white mb-5 sm:mb-10">
             END OF Q4 2021
           </p>
-          <div className="w-[412px] rounded-xl border border-[#ffffff30]  bg-black px-5 py-10">
-            <div className="flex items-center gap-10 ">
+          <div className="rounded-xl border border-[#ffffff30] bg-black px-5 py-10">
+            <div className="flex items-center gap-5">
               <img src={dotIcon} alt="" />
               <h1 className="text-[24px] text-white">Define goals</h1>
             </div>
@@ -59,11 +64,11 @@ const VPNRoadmap = () => {
       </div>
 
       {/* Circular gradient on the left side with simulated blur */}
-      <div className="absolute top-0 left-0 bottom-0 w-[445px] h-[745px] rounded-r-full overflow-hidden">
+      <div className="absolute top-0 -left-[30px] bottom-0 w-[445px] h-[745px] rounded-r-full overflow-hidden">
         <div
           className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-[#9C25EA75] to-[#701CB060] rounded-r-full"
           style={{
-            transform: "translateX(-80%)",
+            transform: "translateX(-60%)",
             filter: "blur(60px)",
           }}
         ></div>

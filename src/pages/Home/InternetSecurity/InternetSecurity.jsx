@@ -15,34 +15,15 @@ const InternetSecurity = () => {
           pleasure, but because those who do not know.
         </p>
 
-        <div className="grid grid-cols-2">
-          <div className="flex gap-2">
-            <p className="text-lg text-[#701CB0]">
-              <IoCheckmarkCircleSharp />
-            </p>{" "}
-            <p className="text-[#878787] font-light">Dolor lorem amet ipsum</p>
-          </div>
-
-          <div className="flex gap-2">
-            <p className="text-lg text-[#701CB0]">
-              <IoCheckmarkCircleSharp />
-            </p>{" "}
-            <p className="text-[#878787] font-light">Dolor lorem amet ipsum</p>
-          </div>
-
-          <div className="flex gap-2">
-            <p className="text-lg text-[#701CB0]">
-              <IoCheckmarkCircleSharp />
-            </p>{" "}
-            <p className="text-[#878787] font-light">Dolor lorem amet ipsum</p>
-          </div>
-
-          <div className="flex gap-2">
-            <p className="text-lg text-[#701CB0]">
-              <IoCheckmarkCircleSharp />
-            </p>{" "}
-            <p className="text-[#878787] font-light">Dolor lorem amet ipsum</p>
-          </div>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-2">
+          {[1, 2, 3, 4].map((index) => (
+            <div key={index} className="flex gap-2">
+              <p className="text-lg text-[#701CB0]">
+                <IoCheckmarkCircleSharp />
+              </p>{" "}
+              <p className="text-[#878787] font-light">Dolor lorem amet ipsum</p>
+            </div>
+          ))}
         </div>
 
         <button className="btn bg-[#701CB0] rounded-full text-sm font-extrabold px-8 py-3 text-white border-[#55585E] hover:bg-[#592e8e]">
@@ -52,7 +33,7 @@ const InternetSecurity = () => {
 
       <div className="mt-10 lg:mt-0 lg:w-1/2 relative">
         <div className="flex flex-cols justify-end ">
-          <div className="space-y-5 -mb-28">
+          <div className="space-y-5 -mb-28 lg:mb-0">
             <div className="flex justify-center items-center rounded-lg border border-[#6b686d] gap-5 w-[162px] h-[60px] bg-[#FFFFFF25]">
               <div className="flex justify-center items-center text-white w-[46px] h-[46px] rounded-lg  bg-gradient-to-b from-[#701CB0] to-[#C45EFF]">
                 <p>
@@ -94,16 +75,15 @@ const InternetSecurity = () => {
       </div>
 
       {/* Circular gradient on the right side with simulated blur */}
-<div className="absolute top-[200px] right-0 bottom-0 w-[445px] h-[845px] rounded-l-full overflow-hidden">
-  <div
-    className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-l from-[#9C25EA75] to-[#701CB030] rounded-l-full"
-    style={{
-      transform: "translateX(60%)",
-      filter: "blur(100px)",
-    }}
-  ></div>
-</div>
-
+      <div className="absolute top-[200px] -right-[30px] bottom-0 w-[445px] h-[845px] rounded-l-full overflow-hidden">
+        <div
+          className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-l from-[#9C25EA75] to-[#701CB030] rounded-l-full"
+          style={{
+            transform: "translateX(60%)",
+            filter: "blur(100px)",
+          }}
+        ></div>
+      </div>
     </div>
   );
 };

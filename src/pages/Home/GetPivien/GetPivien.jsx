@@ -32,7 +32,7 @@ const GetPivien = () => {
       </div>
 
       {/* Circular gradient on the right side with simulated blur */}
-      <div className="absolute -top-[150px] -right-[80px] bottom-0 w-[645px] h-[745px] rounded-l-full overflow-hidden">
+      <div className="absolute hidden lg:block top-0 -right-[30px] bottom-0 w-[645px] h-[745px] rounded-l-full overflow-hidden">
         <div
           className="absolute top-0 left-0 right-0 bottom-0  bg-[#FAE289] rounded-l-full"
           style={{
@@ -43,7 +43,7 @@ const GetPivien = () => {
       </div>
 
       {/* Circular gradient on the left side with simulated blur */}
-      <div className="absolute top-[50] -left-[80px] bottom-0 w-[645px] h-[745px] rounded-r-full overflow-hidden">
+      <div className="absolute hidden lg:block top-[50] -left-[30px] bottom-0 w-[645px] h-[745px] rounded-r-full overflow-hidden">
         <div
           className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-[#9C25EA75] to-[#701CB060] rounded-r-full"
           style={{

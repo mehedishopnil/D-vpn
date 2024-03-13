@@ -3,10 +3,10 @@ import { IoImage } from "react-icons/io5";
 
 const AvailableServers = () => {
   return (
-    <div className="relative grid grid-cols-1 lg:grid-cols-2 ">
-      <div className="flex justify-center w-[589px] bg-[#ffffff10] border border-[#ffffff23] space-y-2 px-6 lg:px-10 py-8 rounded-xl">
+    <div className="relative lg:grid lg:grid-cols-2">
+      <div className="lg:flex lg:justify-center lg:w-[589px] bg-[#ffffff10] border border-[#ffffff23] space-y-4 lg:space-y-2 px-6 lg:px-10 py-8 rounded-xl">
         {/* Server List Container */}
-        <div className="rounded-xl bg-white w-[384px] p-4">
+        <div className="rounded-xl bg-white p-4">
           <h1 className="text-xl lg:text-2xl font-semibold pb-4">
             Available Servers
           </h1>
@@ -35,8 +35,8 @@ const AvailableServers = () => {
       </div>
 
       {/* Content Section */}
-      <div className="flex flex-col justify-center w-10/12 text-center lg:text-left space-y-7">
-        <h2 className="text-3xl lg:text-5xl  leading-tight text-white">
+      <div className="lg:flex lg:flex-col lg:justify-center lg:w-10/12 text-center lg:text-left space-y-6 lg:space-y-7 px-6 lg:px-0">
+        <h2 className="text-3xl lg:text-5xl leading-tight text-white">
           More Than 100 Server Options are Available
         </h2>
         <p className="text-[#797E86]">
@@ -51,9 +51,9 @@ const AvailableServers = () => {
       </div>
 
       {/* Circular gradient on the right side with simulated blur */}
-      <div className="absolute -top-[150px] right-0 bottom-0 w-[645px] h-[745px] rounded-l-full overflow-hidden">
+      <div className="hidden lg:block absolute -top-[150px] -right-[30px] bottom-0 w-[645px] h-[745px] rounded-l-full overflow-hidden">
         <div
-          className="absolute top-0 left-0 right-0 bottom-0  bg-gradient-to-l from-[#9C25EA75] to-[#701CB060] rounded-l-full"
+          className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-l from-[#9C25EA75] to-[#701CB060] rounded-l-full"
           style={{
             transform: "translateX(85%)",
             filter: "blur(90px)",
@@ -62,7 +62,7 @@ const AvailableServers = () => {
       </div>
 
       {/* Circular gradient on the left side with simulated blur */}
-      <div className="absolute -top-[250] left-0 bottom-0 w-[645px] h-[745px] rounded-r-full overflow-hidden">
+      <div className="hidden lg:block absolute -top-[250px] -left-[30px] bottom-0 w-[645px] h-[745px] rounded-r-full overflow-hidden">
         <div
           className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-[#9C25EA75] to-[#701CB060] rounded-r-full"
           style={{
