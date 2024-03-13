@@ -75,7 +75,7 @@ const MyVPN = () => {
       </div>
 
       {/* Circular gradient on the right side with simulated blur */}
-      <div className="absolute -top-[150px] right-0 bottom-0 w-[645px] h-[745px] rounded-l-full overflow-hidden">
+      <div className="absolute -top-[150px] -right-[30px] bottom-0 w-[645px] h-[745px] rounded-l-full overflow-hidden">
         <img className="w-[1163.86px] h-[931.62px]" src={rightSideBg} alt="" />
       </div>
     </div>
