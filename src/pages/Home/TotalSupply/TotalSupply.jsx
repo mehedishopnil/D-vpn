@@ -29,8 +29,8 @@ const TotalSupply = () => {
   const legendPosition = "bottom";
 
   return (
-    <div className="my-[150px] relative">
-      <div className="grid grid-cols-2 w=[1268px] border border-[#ffffff30] rounded-xl  shadow-inner shadow-[#63079F]  bg-[#FFFFFF20] p-8">
+    <div className="my-[150px] relative mx-10">
+      <div className="container mx-auto grid grid-cols-2 w=[1000px] border border-[#ffffff30] rounded-xl  shadow-inner shadow-[#63079F]  bg-[#FFFFFF20] p-8">
 
         {/* Section for ApexCharts donut chart */}
         <div className="flex flex-col justify-center items-center text-white relative">

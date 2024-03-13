@@ -16,7 +16,7 @@ const GlobalServer = () => {
           Ultra-Fast Servers Around
           <br /> the World
         </h1>
-        <p className="text-lg">
+        <p className="text-lg w-[628px] mx-auto">
           Choose among 1000+ high-speed VPN servers and enjoy fast and stable
           connections anywhere.
         </p>
