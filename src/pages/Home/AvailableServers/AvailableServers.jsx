@@ -5,8 +5,8 @@ import { TbWorldSearch } from "react-icons/tb";
 
 const AvailableServers = () => {
   return (
-    <div className="relative lg:grid lg:grid-cols-2">
-      <div className="relative lg:flex lg:justify-center lg:w-[589px] bg-[#ffffff10] border border-[#ffffff23] space-y-4 lg:space-y-2 px-6 lg:px-10 py-8 rounded-xl">
+    <div className="relative mt-[550px]  lg:grid lg:grid-cols-2">
+    <div className="relative lg:flex lg:justify-center lg:w-[589px] bg-[#ffffff10] border border-[#ffffff23] space-y-4 lg:space-y-2 px-6 lg:px-10 py-8 rounded-xl">
         {/* Server List Container */}
         <div className="rounded-xl bg-white p-4">
           <h1 className="text-xl lg:text-2xl font-semibold pb-4">
@@ -60,27 +60,7 @@ const AvailableServers = () => {
         </button>
       </div>
 
-      {/* Circular gradient on the right side with simulated blur */}
-      <div className="hidden lg:block absolute -top-[150px] -right-[30px] bottom-0 w-[645px] h-[745px] rounded-l-full overflow-hidden">
-        <div
-          className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-l from-[#9C25EA75] to-[#701CB060] rounded-l-full"
-          style={{
-            transform: "translateX(85%)",
-            filter: "blur(90px)",
-          }}
-        ></div>
-      </div>
-
-      {/* Circular gradient on the left side with simulated blur */}
-      <div className="hidden lg:block absolute -top-[250px] -left-[30px] bottom-0 w-[645px] h-[745px] rounded-r-full overflow-hidden">
-        <div
-          className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-[#9C25EA75] to-[#701CB060] rounded-r-full"
-          style={{
-            transform: "translateX(-90%)",
-            filter: "blur(80px)",
-          }}
-        ></div>
-      </div>
+      
     </div>
   );
 };

@@ -8,7 +8,8 @@ import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
     <div className='mt-20'>
-      <footer className="footer p-10 text-base-content">
+      <footer className="footer grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 p-10 text-base-content">
+        {/* Company */}
         <nav>
           <h6 className="footer-title text-white">Company</h6>
           <a className="link link-hover text-[#797E86]">About</a>
@@ -19,6 +20,8 @@ const Footer = () => {
           <a className="link link-hover text-[#797E86]">Open Source</a>
           <a className="link link-hover text-[#797E86]">Press/Media Kit</a>
         </nav>
+        
+        {/* Products */}
         <nav>
           <h6 className="footer-title text-white">Products</h6>
           <a className="link link-hover text-[#797E86]">VPN for Windows</a>
@@ -30,6 +33,8 @@ const Footer = () => {
           <a className="link link-hover text-[#797E86]">VPN for Edge</a>
           <a className="link link-hover text-[#797E86]">VPN for Linux</a>
         </nav>
+        
+        {/* Other Resources */}
         <nav>
           <h6 className="footer-title text-white">Other Resources</h6>
           <a className="link link-hover text-[#797E86]">What is My IP</a>
@@ -40,6 +45,8 @@ const Footer = () => {
           <a className="link link-hover text-[#797E86]">Glossary</a>
           <a className="link link-hover text-[#797E86]">Free Proxy</a>
         </nav>
+        
+        {/* Legal */}
         <nav>
           <h6 className="footer-title text-white">Legal</h6>
           <a className="link link-hover text-[#797E86]">Imprint</a>
@@ -49,6 +56,8 @@ const Footer = () => {
           <a className="link link-hover text-[#797E86]">Threat Model</a>
           <a className="link link-hover text-[#797E86]">Report Abuse</a>
         </nav>
+        
+        {/* Social */}
         <nav>
           <h6 className="footer-title text-white">Social</h6>
           <a className="link link-hover text-[#797E86]">Twitter</a>
@@ -57,8 +66,9 @@ const Footer = () => {
           <a className="link link-hover text-[#797E86]">Facebook</a>
           <a className="link link-hover text-[#797E86]">Youtube</a>
         </nav>
-        
       </footer>
+
+      {/* Bottom Footer */}
       <footer className="footer px-10 py-4   text-base-content pb-5">
         <aside className="items-center grid-flow-col">
           

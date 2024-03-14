@@ -40,7 +40,7 @@ const TotalSupply = () => {
     <div className="container mx-auto my-8">
       <div className="flex flex-col items-center gap-10 sm:flex-row sm:justify-center sm:gap-5 border border-[#ffffff30] rounded-xl shadow-inner shadow-[#63079F] bg-[#FFFFFF20] p-8">
         {/* Chart */}
-        <div className="w-full sm:w-[500px]">
+        <div className="flex flex-col items-center w-full sm:w-[500px] relative">
           <div className="flex justify-center">
             <ApexCharts
               type="donut"
@@ -53,9 +53,9 @@ const TotalSupply = () => {
             />
           </div>
           {/* Total Supply */}
-          <div className="text-center mt-4">
-            <h1 className="text-[18px] font-bold">Total Supply</h1>
-            <h1 className="text-[22px] font-bold">50,000,000</h1>
+          <div className=" lg:absolute mt-10 lg:mt-0 lg:left-[200px] top-1/2 left-0 transform -translate-x-1/2 -translate-y-1/2  text-center  text-white">
+            <h1 className="text-[14px] lg:text-[18px] font-bold">Total Supply</h1>
+            <h1 className="text-[18px] lg:text-[24px] font-bold">50,000,000</h1>
           </div>
         </div>
 

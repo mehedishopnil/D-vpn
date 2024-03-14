@@ -20,12 +20,6 @@ const Home = () => {
       
       <GetPivien />
 
-      
-      <div>
-        <img src={spinAbstract} alt="" />
-      </div>
-      
-
       <AvailableServers />
 
       <div className="relative">
