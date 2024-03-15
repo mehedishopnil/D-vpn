@@ -30,7 +30,7 @@ const Main = () => {
       </div>
 
       {/* Abstract image */}
-      <div className="absolute top-[7.5%] right-0 bottom-0 hidden lg:block">
+      <div className="absolute top-[7.5%] right-0 bottom-0  lg:block">
         <img className="w-[1980px]" src={spinAbstract} alt="" />
       </div>
 

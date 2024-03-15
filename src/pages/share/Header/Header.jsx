@@ -62,11 +62,11 @@ const Header = () => {
         </div>
 
         {/* Mobile Navigation Menu */}
-        <div className={`fixed inset-0 bg-black z-50 transition-opacity duration-300 ease-in-out overflow-hidden ${menuOpen ? "opacity-70 pointer-events-auto" : "opacity-0 pointer-events-none"}`}>
-          <div className="absolute top-0 left-0 w-full bg-white shadow-lg transform transition-transform duration-300 ease-in-out" style={{ height: '50vh' }}>
+        <div className={`fixed inset-0 text-white z-50 transition-opacity duration-300 ease-in-out overflow-hidden ${menuOpen ? "opacity-90 pointer-events-auto text-center  font-bold text-xl " : "opacity-0 pointer-events-none"}`}>
+          <div className="absolute top-0 left-0 w-full text-white bg-[#411562] shadow-lg transform transition-transform duration-300 ease-in-out" style={{ height: '50vh' }}>
             <div className="container mx-auto px-4 lg:px-8 py-5">
               {/* Close menu button */}
-              <button className="absolute top-4 right-4 text-black" onClick={toggleMenu}>
+              <button className="absolute top-4 right-4 text-white" onClick={toggleMenu}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-6 w-6"
@@ -78,12 +78,12 @@ const Header = () => {
                 </svg>
               </button>
               {/* Menu items */}
-              <ul className="flex flex-col lg:flex-row lg:items-center lg:space-x-8">
-                <li><Link to="/" className="text-black">Features</Link></li>
-                <li><Link to="/" className="text-black">Download</Link></li>
-                <li><Link to="/" className="text-black">Resources</Link></li>
-                <li><Link to="/" className="text-black">Pricing</Link></li>
-                <li><Link to="/" className="text-black">Business VPN</Link></li>
+              <ul className="flex flex-col gap-5 mt-5 lg:flex-row lg:items-center lg:space-x-8">
+                <li><Link to="/" className="">Features</Link></li>
+                <li><Link to="/" className="">Download</Link></li>
+                <li><Link to="/" className="">Resources</Link></li>
+                <li><Link to="/" className="">Pricing</Link></li>
+                <li><Link to="/" className="">Business VPN</Link></li>
               </ul>
             </div>
           </div>
