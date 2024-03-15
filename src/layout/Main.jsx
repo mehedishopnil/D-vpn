@@ -46,7 +46,7 @@ const Main = () => {
           <div
             className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-[#9C25EA90] to-[#701CB090] rounded-r-full"
             style={{
-              transform: "translateX(-80%)",
+              transform: "translateX(-90%)",
             filter: "blur(110px)",
             }}
           ></div>
@@ -70,10 +70,10 @@ const Main = () => {
         {/* Circular gradient on the left side */}
         <div className="absolute top-[25%] left-0 bottom-0 w-[645px] h-[745px] rounded-r-full overflow-hidden">
           <div
-            className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-[#9C25EA75] to-[#701CB060] rounded-r-full"
+            className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-[#9C25EA90] to-[#701CB090] rounded-r-full"
             style={{
-              transform: "translateX(-70%)",
-              filter: "blur(110px)",
+              transform: "translateX(-90%)",
+            filter: "blur(110px)",
             }}
           ></div>
         </div>
@@ -124,10 +124,10 @@ const Main = () => {
           {/* Circular gradient on the left side for D-VPN Roadmap section */}
         <div className="absolute top-[58%] left-0 bottom-0 w-[645px] h-[745px] rounded-r-full overflow-hidden">
           <div
-            className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-[#9C25EA75] to-[#701CB060] rounded-r-full"
+            className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-[#9C25EA90] to-[#701CB090]  rounded-r-full"
             style={{
-              transform: "translateX(-70%)",
-              filter: "blur(110px)",
+              transform: "translateX(-90%)",
+            filter: "blur(110px)",
             }}
           ></div>
         </div>
@@ -136,10 +136,10 @@ const Main = () => {
            {/* Circular gradient on the left side for total supply section */}
         <div className="absolute top-[70%] left-0 bottom-0 w-[645px] h-[745px] rounded-r-full overflow-hidden">
           <div
-            className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-[#9C25EA75] to-[#701CB060] rounded-r-full"
+            className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-[#9C25EA90] to-[#701CB090]  rounded-r-full"
             style={{
-              transform: "translateX(-70%)",
-              filter: "blur(110px)",
+              transform: "translateX(-85%)",
+            filter: "blur(110px)",
             }}
           ></div>
         </div>
@@ -159,10 +159,10 @@ const Main = () => {
           {/* Circular gradient on the left side for Global Server Section */}
         <div className="absolute top-[88%] left-0 bottom-0 w-[645px] h-[745px] rounded-r-full overflow-hidden">
           <div
-            className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-[#9C25EA75] to-[#701CB060] rounded-r-full"
+            className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-[#9C25EA90] to-[#701CB090]  rounded-r-full"
             style={{
-              transform: "translateX(-70%)",
-              filter: "blur(110px)",
+              transform: "translateX(-90%)",
+            filter: "blur(110px)",
             }}
           ></div>
         </div>
