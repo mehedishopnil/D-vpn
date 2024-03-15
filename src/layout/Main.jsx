@@ -3,6 +3,7 @@ import Header from "../pages/share/Header/Header";
 import Footer from "../pages/share/Footer/Footer";
 import spinAbstract from "../assets/OBJECTS.svg";
 import rightSideBg from "../assets/rightSideBg.svg";
+import leftSideBg from "../assets/9057764-02 1.svg";
 
 const Main = () => {
   return (
@@ -25,34 +26,34 @@ const Main = () => {
       {/* Circular gradient on the left side with simulated blur */}
       <div className="hidden lg:block absolute top-0 left-0 bottom-0 w-[645px] h-[745px] rounded-r-full overflow-hidden">
         <div
-          className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-[#9C25EA75] to-[#701CB060] rounded-r-full"
+          className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-[#9C25EA90] to-[#701CB090] rounded-r-full"
           style={{
-            transform: "translateX(-70%)",
+            transform: "translateX(-90%)",
             filter: "blur(100px)",
           }}
         ></div>
       </div>
 
       {/* Abstract image */}
-      <div className="absolute top-[550px] right-0 bottom-0 hidden lg:block">
+      <div className="absolute top-[7.5%] right-0 bottom-0 hidden lg:block">
         <img className="w-[1980px]" src={spinAbstract} alt="" />
       </div>
 
       {/* Additional gradients for larger screens */}
       <div className="hidden lg:block">
         {/* Circular gradient on the left side */}
-        <div className="absolute mt-[1000px]  top-0 left-0 bottom-0 w-[645px] h-[745px] rounded-r-full overflow-hidden">
+        <div className="absolute  top-[13%] left-0 bottom-0 w-[700px] h-[745px] rounded-r-full overflow-hidden">
           <div
-            className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-[#9C25EA75] to-[#701CB060] rounded-r-full"
+            className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-[#9C25EA90] to-[#701CB090] rounded-r-full"
             style={{
-              transform: "translateX(-70%)",
-              filter: "blur(110px)",
+              transform: "translateX(-80%)",
+            filter: "blur(110px)",
             }}
           ></div>
         </div>
 
         {/* Circular gradient on the right side */}
-        <div className="absolute top-[1050px] right-0 bottom-0 w-[645px] h-[745px] rounded-l-full overflow-hidden">
+        <div className="absolute top-[13%] right-0 bottom-0 w-[645px] h-[745px] rounded-l-full overflow-hidden">
           <div
             className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-l from-[#9C25EA75] to-[#701CB060] rounded-l-full"
             style={{
@@ -65,8 +66,9 @@ const Main = () => {
 
       {/* Additional gradients for larger screens */}
       <div className="hidden lg:block">
+
         {/* Circular gradient on the left side */}
-        <div className="absolute mt-[700px]  top-[1000px] left-0 bottom-0 w-[645px] h-[745px] rounded-r-full overflow-hidden">
+        <div className="absolute top-[25%] left-0 bottom-0 w-[645px] h-[745px] rounded-r-full overflow-hidden">
           <div
             className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-[#9C25EA75] to-[#701CB060] rounded-r-full"
             style={{
@@ -76,8 +78,8 @@ const Main = () => {
           ></div>
         </div>
 
-        {/* Circular gradient on the right side with simulated blur */}
-        <div className="absolute mt-[750px] top-[1000px] right-0 bottom-0  rounded-l-full overflow-hidden">
+        {/* bg image on the right side for MyVPN section */}
+        <div className="absolute top-[20%] right-0 bottom-0  rounded-l-full overflow-hidden">
           <img
             className="w-full"
             src={rightSideBg}
@@ -85,6 +87,99 @@ const Main = () => {
           />
         </div>
       </div>
+
+      {/* Circular gradient on the right side for InternetSecurity section */}
+      <div className="absolute top-[30%] right-0 bottom-0 w-[445px] h-[845px] rounded-l-full overflow-hidden">
+        <div
+          className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-l from-[#9C25EA75] to-[#701CB030] rounded-l-full"
+          style={{
+            transform: "translateX(50%)",
+            filter: "blur(110px)",
+          }}
+        ></div>
+      </div>
+
+      <div>
+        {/* Background image on the left side middle for decentralised VPN section */}
+      <div className="absolute top-1/2 lg:top-[50%] left-0 lg:left-0 transform -translate-y-1/2 rotate-180 rounded-l-full overflow-hidden">
+        <img
+          className="w-full h-auto lg:h-full mb-[200px]"
+          src={leftSideBg}
+          alt=""
+        />
+      </div>
+
+      {/* Circular gradient on the right side for decentralised VPN section */}
+      <div className="absolute  top-[45%] right-0 bottom-0 w-[445px] h-[845px] rounded-l-full overflow-hidden">
+        <div
+          className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-l from-[#9C25EA75] to-[#701CB030] rounded-l-full"
+          style={{
+            transform: "translateX(60%)",
+            filter: "blur(100px)",
+          }}
+        ></div>
+      </div>
+    </div>
+
+          {/* Circular gradient on the left side for D-VPN Roadmap section */}
+        <div className="absolute top-[58%] left-0 bottom-0 w-[645px] h-[745px] rounded-r-full overflow-hidden">
+          <div
+            className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-[#9C25EA75] to-[#701CB060] rounded-r-full"
+            style={{
+              transform: "translateX(-70%)",
+              filter: "blur(110px)",
+            }}
+          ></div>
+        </div>
+
+        <div>
+           {/* Circular gradient on the left side for total supply section */}
+        <div className="absolute top-[70%] left-0 bottom-0 w-[645px] h-[745px] rounded-r-full overflow-hidden">
+          <div
+            className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-[#9C25EA75] to-[#701CB060] rounded-r-full"
+            style={{
+              transform: "translateX(-70%)",
+              filter: "blur(110px)",
+            }}
+          ></div>
+        </div>
+
+        {/* Circular gradient on the right side for total supply section */}
+      <div className="absolute  top-[63%] right-0 bottom-0 w-[445px] h-[845px] rounded-l-full overflow-hidden">
+        <div
+          className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-l from-[#9C25EA75] to-[#701CB030] rounded-l-full"
+          style={{
+            transform: "translateX(50%)",
+            filter: "blur(110px)",
+          }}
+        ></div>
+      </div>
+
+        </div>
+          {/* Circular gradient on the left side for Global Server Section */}
+        <div className="absolute top-[88%] left-0 bottom-0 w-[645px] h-[745px] rounded-r-full overflow-hidden">
+          <div
+            className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-[#9C25EA75] to-[#701CB060] rounded-r-full"
+            style={{
+              transform: "translateX(-70%)",
+              filter: "blur(110px)",
+            }}
+          ></div>
+        </div>
+
+         {/* Circular gradient on the right side for footer section */}
+      <div className="absolute  top-[90%] right-0 bottom-0 w-[445px] h-[845px] rounded-l-full overflow-hidden">
+        <div
+          className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-l from-[#9C25EA75] to-[#701CB030] rounded-l-full"
+          style={{
+            transform: "translateX(50%)",
+            filter: "blur(150px)",
+          }}
+        ></div>
+      </div>
+
+
+
     </div>
   );
 };

@@ -54,10 +54,6 @@ const GlobalServer = () => {
         </div>
       </div>
 
-      {/* Circular gradient on the left side with simulated blur */}
-      <div className="absolute top-[25%] -left-[20%] lg:-left-[5%] bottom-0 w-[300px] lg:w-[645px] h-[500px] lg:h-[745px] rounded-r-full overflow-hidden">
-        <div className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-[#9C25EA75] to-[#701CB060] rounded-r-full" style={{ transform: "translateX(-80%)", filter: "blur(60px)" }}></div>
-      </div>
     </div>
   );
 };

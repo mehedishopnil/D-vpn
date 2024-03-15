@@ -74,16 +74,7 @@ const InternetSecurity = () => {
         </div>
       </div>
 
-      {/* Circular gradient on the right side with simulated blur */}
-      <div className="absolute top-[200px] -right-[30px] bottom-0 w-[445px] h-[845px] rounded-l-full overflow-hidden">
-        <div
-          className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-l from-[#9C25EA75] to-[#701CB030] rounded-l-full"
-          style={{
-            transform: "translateX(60%)",
-            filter: "blur(100px)",
-          }}
-        ></div>
-      </div>
+      
     </div>
   );
 };

@@ -1,5 +1,4 @@
 import demoImg from "../../../assets/Image Placeholder.png";
-import DecentralisedbgImage from "../../../assets/9057764-02 1.svg";
 
 const DecentralisedVPN = () => {
   return (
@@ -80,22 +79,9 @@ const DecentralisedVPN = () => {
         </div>
       </div>
 
-      {/* Circular gradient on the right side with simulated blur */}
-      <div className="absolute top-0 lg:top-[400px] -right-4 lg:right-[30px] bottom-0 w-[60%] lg:w-[645px] h-[50%] lg:h-[745px] rounded-l-full overflow-hidden">
-        <div
-          className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-l from-[#9C25EA75] to-[#701CB060] rounded-l-full"
-          style={{ transform: "translateX(80%)", filter: "blur(60px)" }}
-        ></div>
-      </div>
+     
 
-      {/* Background image on the left side middle */}
-      <div className="absolute top-1/2 lg:top-[50%] -left-4 lg:left-[30px] transform -translate-y-1/2 rotate-180 rounded-l-full overflow-hidden">
-        <img
-          className="w-full h-auto lg:h-full mb-[200px]"
-          src={DecentralisedbgImage}
-          alt=""
-        />
-      </div>
+      
     </div>
   );
 };
