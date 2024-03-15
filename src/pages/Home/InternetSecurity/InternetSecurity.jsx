@@ -6,7 +6,7 @@ import halfPie from "../../../assets/halfPieIcone.svg";
 const InternetSecurity = () => {
   return (
     <div className="relative flex flex-col lg:flex-row justify-center items-center lg:space-x-10 px-5 lg:px-20 py-10 lg:py-16 overflow-hidden">
-      <div className="text-center z-10 lg:text-left lg:w-1/2 space-y-7 relative">
+      <div className="flex flex-col items-center lg:block text-center z-10 lg:text-left lg:w-1/2 space-y-7 relative">
         <h2 className="text-white text-4xl lg:text-5xl font-bold leading-tight">
           Access the Internet Securely and Privately
         </h2>
@@ -31,9 +31,9 @@ const InternetSecurity = () => {
         </button>
       </div>
 
-      <div className="mt-10 lg:mt-0 lg:w-1/2 relative">
+      <div className="relative mt-10 lg:mt-0 lg:w-1/2 ">
         <div className="flex flex-cols justify-end ">
-          <div className="space-y-5 -mb-28 lg:mb-0">
+          <div className="flex flex-col lg:block space-y-5 -mb-28 lg:mb-0">
             <div className="flex justify-center items-center rounded-lg border border-[#6b686d] gap-5 w-[162px] h-[60px] bg-[#FFFFFF25]">
               <div className="flex justify-center items-center text-white w-[46px] h-[46px] rounded-lg  bg-gradient-to-b from-[#701CB0] to-[#C45EFF]">
                 <p>

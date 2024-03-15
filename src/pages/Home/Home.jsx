@@ -25,7 +25,7 @@ const Home = () => {
       <AvailableServers />
 
       {/* Stars background */}
-      <div className="relative">
+      <div className="relative mt-10 lg:mt-0">
         <Stars></Stars>
       </div>
 
@@ -33,7 +33,7 @@ const Home = () => {
       <MyVPN />
 
       {/* Stars background */}
-      <div className="relative">
+      <div className="relative -mt-16 lg:mt-0">
         <Stars></Stars>
       </div>
 

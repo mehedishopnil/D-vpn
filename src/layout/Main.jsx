@@ -37,23 +37,23 @@ const Main = () => {
 
       {/* Additional gradients for larger screens */}
       <div className="hidden lg:block">
-        {/* Circular gradient on the left side */}
+        {/* Circular gradient on the left side Available Servers section */}
         <div className="absolute top-[13%] left-0 bottom-0 w-[700px] h-[745px] rounded-r-full overflow-hidden">
-          {/* Circular gradient for decentralised VPN section */}
+          {/* Circular gradient for Available Servers section */}
           <div className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-[#9C25EA90] to-[#701CB090] rounded-r-full" style={{ transform: "translateX(-90%)", filter: "blur(110px)" }}></div>
         </div>
 
-        {/* Circular gradient on the right side */}
-        <div className="absolute top-[13%] right-0 bottom-0 w-[645px] h-[745px] rounded-l-full overflow-hidden">
-          {/* Circular gradient for decentralised VPN section */}
+        {/* Circular gradient on the right side for Available Servers section */}
+        <div className="absolute top-[13%] right-0 bottom-0 lg:w-[645px] lg:h-[745px] rounded-l-full overflow-hidden">
+          {/* Circular gradient for Available Servers section */}
           <div className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-l from-[#9C25EA75] to-[#701CB060] rounded-l-full" style={{ transform: "translateX(70%)", filter: "blur(90px)" }}></div>
         </div>
       </div>
 
       {/* Additional gradients for larger screens */}
-      <div className="hidden lg:block overflow-hidden">
+      <div className="hidden lg:block overflow-hidden z-0">
         {/* Circular gradient on the left side */}
-        <div className="absolute top-[25%] left-0 bottom-0 w-[645px] h-[745px] rounded-r-full overflow-hidden">
+        <div className="absolute top-[25%] left-0 bottom-0 lg:w-[645px] lg:h-[745px] rounded-r-full overflow-hidden">
           {/* Circular gradient for MyVPN section */}
           <div className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-[#9C25EA90] to-[#701CB090] rounded-r-full" style={{ transform: "translateX(-90%)", filter: "blur(110px)" }}></div>
         </div>
