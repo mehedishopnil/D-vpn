@@ -49,7 +49,7 @@ const AvailableServers = () => {
       </div>
 
       {/* Content Section */}
-      <div className="lg:flex lg:flex-col lg:justify-center lg:w-10/12 text-center lg:text-left space-y-6 lg:space-y-7 px-6 lg:px-0">
+      <div className="lg:flex lg:flex-col lg:justify-center z-10 lg:w-10/12 text-center lg:text-left space-y-6 lg:space-y-7 px-6 lg:px-0">
         <h2 className="text-3xl lg:text-5xl leading-tight text-white">
           More Than 100 Server Options are Available
         </h2>

@@ -6,6 +6,7 @@ import rightSideBg from "../assets/rightSideBg.svg";
 import leftSideBg from "../assets/9057764-02 1.svg";
 
 const Main = () => {
+  
   return (
     <div className="w-full bg-[#0F0F0F] relative">
       {/* Header */}
@@ -24,7 +25,7 @@ const Main = () => {
       </div>
 
       {/* Circular gradient on the left side with simulated blur */}
-      <div className="hidden lg:block absolute top-0 left-0 bottom-0 w-[645px] h-[745px] rounded-r-full overflow-hidden">
+      <div className="hidden z-0 lg:block absolute top-0 left-0 bottom-0 w-[645px] h-[745px] rounded-r-full overflow-hidden">
         {/* Circular gradient for D-VPN Roadmap section */}
         <div className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-[#9C25EA90] to-[#701CB090] rounded-r-full" style={{ transform: "translateX(-90%)", filter: "blur(100px)" }}></div>
       </div>
