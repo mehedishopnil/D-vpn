@@ -1,6 +1,6 @@
 const leftSideGradient = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       {/* Circular gradient on the left side with simulated blur */}
       <div className="absolute hidden lg:block top-[50] -left-[60px] bottom-0 w-[645px] h-[745px] rounded-r-full overflow-hidden">
         <div

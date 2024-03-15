@@ -4,7 +4,7 @@ import "./GetPivien.css";
 
 const GetPivien = () => {
   return (
-    <div className="relative  flex flex-col lg:flex-row justify-center items-center lg:space-x-10 px-5 lg:px-20 py-10 lg:py-16">
+    <div className="relative  flex flex-col lg:flex-row justify-center items-center lg:space-x-10 px-5 lg:px-20 py-10 lg:py-16 overflow-hidden">
       <div className="text-center lg:text-left lg:w-1/2 space-y-7 relative">
         {/* Apply gradient to the text */}
         <p className="text-[20px] font-bold relative z-10 gradient-text">

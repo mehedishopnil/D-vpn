@@ -2,7 +2,7 @@ import demoImg from "../../../assets/Image Placeholder.png";
 
 const DecentralisedVPN = () => {
   return (
-    <div className="relative">
+    <div className="relative overflow-hidden">
       <div className="container mx-auto px-4 lg:px-8 py-10">
         <h1 className="text-4xl lg:text-5xl text-center text-white mb-12 lg:mb-16">
           Key features of the decentralised VPN app

@@ -4,7 +4,7 @@ import { TbWorld } from "react-icons/tb";
 
 const GlobalServer = () => {
   return (
-    <div className="relative">
+    <div className="relative overflow-hidden">
       {/* Background Image */}
       <div
         className="relative bg-cover bg-no-repeat py-16"

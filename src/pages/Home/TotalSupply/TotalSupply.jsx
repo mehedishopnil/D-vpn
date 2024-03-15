@@ -37,7 +37,7 @@ const TotalSupply = () => {
   const legendPosition = "bottom";
 
   return (
-    <div className="container mx-auto my-8">
+    <div className="container mx-auto my-8 overflow-hidden">
       <div className="flex flex-col items-center gap-10 sm:flex-row sm:justify-center sm:gap-5 border border-[#ffffff30] rounded-xl shadow-inner shadow-[#63079F] bg-[#FFFFFF20] p-8">
         {/* Chart */}
         <div className="flex flex-col items-center w-full sm:w-[500px] relative">

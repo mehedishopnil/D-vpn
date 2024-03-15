@@ -9,61 +9,71 @@ import TotalSupply from "./TotalSupply/TotalSupply";
 import GlobalServer from "./GlobalServer/GlobalServer";
 import comet from "../../../src/assets/comet.svg";
 import Stars from "../../components/Stars";
-// import Stars from "../../../src/assets/Stars.svg";
 
 const Home = () => {
   return (
-    <div className="container mx-auto px-8 mt-16">
+    <div className="container mx-auto px-8 mt-16 overflow-hidden"> {/* Parent container */}
+      {/* Stars background */}
       <div className="relative">
         <Stars></Stars>
       </div>
       
+      {/* Component: GetPivien */}
       <GetPivien />
 
+      {/* Component: AvailableServers */}
       <AvailableServers />
 
+      {/* Stars background */}
       <div className="relative">
         <Stars></Stars>
       </div>
 
+      {/* Component: MyVPN */}
       <MyVPN />
 
+      {/* Stars background */}
       <div className="relative">
         <Stars></Stars>
       </div>
 
+      {/* Component: InternetSecurity */}
       <InternetSecurity />
 
+      {/* Stars background */}
       <div className="relative">
         <Stars></Stars>
       </div>
 
+      {/* Component: DecentralisedVPN */}
       <DecentralisedVPN />
 
+      {/* Stars background */}
       <div className="relative">
         <Stars></Stars>
       </div>
 
+      {/* Component: VPNRoadmap */}
       <VPNRoadmap />
 
+      {/* Component: TotalSupply */}
       <TotalSupply />
 
+      {/* Animation section */}
       <div className="relative">
-        {/* Star image with animation */}
+        {/* Stars background */}
         <Stars></Stars>
 
-        {/* Comet image with animation */}
+        {/* Comet animation */}
         <img
           src={comet}
           alt="Comet"
-          className="absolute top-10 transform -translate-y-1/2 animate-comet-flow"
+          className="absolute top-10 transform -translate-y-1/2 animate-comet-flow overflow-hidden"
         />
 
         {/* Animation keyframes */}
         <style>
           {`
-
-
             @keyframes cometFlow {
               0% { left: 0; opacity: 0; }
               50% { left: 50%; opacity: 1; }
@@ -77,6 +87,7 @@ const Home = () => {
         </style>
       </div>
 
+      {/* Component: GlobalServer */}
       <GlobalServer />
     </div>
   );

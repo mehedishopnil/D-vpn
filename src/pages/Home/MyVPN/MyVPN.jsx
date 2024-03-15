@@ -5,7 +5,7 @@ import rightSideBg from "../../../assets/rightSideBg.svg";
 
 const MyVPN = () => {
   return (
-  <div className="relative w-full my-[150px]">
+  <div className="relative w-full my-[150px] overflow-hidden">
      <div className=" w-full ">
       <h1 className="text-3xl text-center lg:text-5xl text-white">
         What Makes MyVPN a <br /> Good Choice

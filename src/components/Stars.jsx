@@ -3,7 +3,7 @@ import React from "react";
 
 const Stars = () => {
   return (
-    <div className="absolute -top-10 animate-star-flow">
+    <div className="absolute -top-10 animate-star-flow overflow-hidden">
       <img src={stars} alt="Star" />
 
       {/* Animation keyframes */}

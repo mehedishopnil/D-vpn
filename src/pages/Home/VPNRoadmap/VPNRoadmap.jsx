@@ -2,7 +2,7 @@ import dotIcon from "../../../assets/dvpnDotIcon.svg";
 
 const VPNRoadmap = () => {
   return (
-    <div className="my-[150px] relative">
+    <div className="my-[150px] relative overflow-hidden">
       {/* Roadmap Title */}
       <h1 className="text-[48px] text-center text-white ">D-VPN Roadmap</h1>
 

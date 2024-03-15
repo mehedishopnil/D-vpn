@@ -5,7 +5,7 @@ import halfPie from "../../../assets/halfPieIcone.svg";
 
 const InternetSecurity = () => {
   return (
-    <div className="relative flex flex-col lg:flex-row justify-center items-center lg:space-x-10 px-5 lg:px-20 py-10 lg:py-16">
+    <div className="relative flex flex-col lg:flex-row justify-center items-center lg:space-x-10 px-5 lg:px-20 py-10 lg:py-16 overflow-hidden">
       <div className="text-center lg:text-left lg:w-1/2 space-y-7 relative">
         <h2 className="text-white text-4xl lg:text-5xl font-bold leading-tight">
           Access the Internet Securely and Privately
