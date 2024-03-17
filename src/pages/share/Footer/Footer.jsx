@@ -7,10 +7,10 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <div className='mt-20'>
-      <footer className="footer grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 p-10 text-base-content">
+    <div className='mt-20 '>
+      <footer className="footer z-20 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 p-10 text-base-content">
         {/* Company */}
-        <nav className='z-10'>
+        <nav className='z-20'>
           <h6 className="footer-title text-white">Company</h6>
           <a className="link link-hover text-[#797E86]">About</a>
           <a className="link link-hover text-[#797E86]">Pricing</a>
@@ -22,7 +22,7 @@ const Footer = () => {
         </nav>
         
         {/* Products */}
-        <nav className='z-10'>
+        <nav className='z-20'>
           <h6 className="footer-title text-white">Products</h6>
           <a className="link link-hover text-[#797E86]">VPN for Windows</a>
           <a className="link link-hover text-[#797E86]">VPN for Mac</a>
@@ -35,7 +35,7 @@ const Footer = () => {
         </nav>
         
         {/* Other Resources */}
-        <nav className='z-10'>
+        <nav className='z-20'>
           <h6 className="footer-title text-white">Other Resources</h6>
           <a className="link link-hover text-[#797E86]">What is My IP</a>
           <a className="link link-hover text-[#797E86]">How IP Works</a>
@@ -47,7 +47,7 @@ const Footer = () => {
         </nav>
         
         {/* Legal */}
-        <nav className='z-10'>
+        <nav className='z-20'>
           <h6 className="footer-title text-white">Legal</h6>
           <a className="link link-hover text-[#797E86]">Imprint</a>
           <a className="link link-hover text-[#797E86]">Privacy Policy</a>
@@ -58,7 +58,7 @@ const Footer = () => {
         </nav>
         
         {/* Social */}
-        <nav className='z-10'>
+        <nav className='z-20'>
           <h6 className="footer-title text-white">Social</h6>
           <a className="link link-hover text-[#797E86]">Twitter</a>
           <a className="link link-hover text-[#797E86]">LinkedIn</a>
@@ -69,15 +69,15 @@ const Footer = () => {
       </footer>
 
       {/* Bottom Footer */}
-      <footer className="footer px-10 py-4 z-10  text-base-content pb-5">
-        <aside className="items-center grid-flow-col">
+      <footer className="footer px-10 py-4 text-base-content pb-5">
+        <aside className="items-center grid-flow-col z-20">
           
-          <p className="text-[#797E86]">
+          <p className="text-[#797E86] ">
           © 2023 D-VPN. All rights reserved.
           </p>
         </aside>
         <nav className="md:place-self-center md:justify-self-end">
-          <div className="flex items-center gap-6 ">
+          <div className="flex items-center z-20 gap-6 ">
             <Link><img src={telegramIcon} alt="telegram"/></Link>
             <Link><img src={footerIcon2} alt="footerIcon2"/></Link>
             <Link><img src={footerIcon3} alt="footerIcon3"/></Link>

@@ -129,7 +129,7 @@ const Main = () => {
       </div>
 
       {/* Circular gradient on the left side for Global Server Section */}
-      <div className=" absolute hidden lg:block z-10 top-[88%] left-0 bottom-0 lg:w-[645px] lg:h-[745px] rounded-r-full overflow-hidden w-xl  h-xl">
+      <div className=" absolute hidden lg:block z-20 top-[88%] left-0 bottom-0 lg:w-[645px] lg:h-[745px] rounded-r-full overflow-hidden w-xl  h-xl">
         <div
           className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-[#9C25EA90] to-[#701CB090]  rounded-r-full"
           style={{ transform: "translateX(-90%)", filter: "blur(110px)" }}
@@ -137,10 +137,10 @@ const Main = () => {
       </div>
 
       {/* Circular gradient on the right side for footer section */}
-      <div className="absolute hidden lg:block  z-10 top-[90%] right-0 bottom-0 w-[445px] h-[845px] rounded-l-full overflow-hidden lg:h-auto ">
+      <div className="absolute hidden lg:block  z-20 top-[90%] right-0 bottom-0 w-[545px] h-[845px] rounded-l-full overflow-hidden lg:h-auto ">
         <div
-          className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-l from-[#9C25EA75] to-[#701CB030] rounded-l-full"
-          style={{ transform: "translateX(50%)", filter: "blur(150px)" }}
+          className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-l from-[#9C25EA75] to-[#701CB070] rounded-l-full"
+          style={{ transform: "translateX(85%)", filter: "blur(150px)" }}
         ></div>
       </div>
 
@@ -150,6 +150,15 @@ const Main = () => {
         src={earthBgImage}
         alt="Background"
       />
+
+      <div className="absolute h-[796px] top-[83%]  left-0 right-0 bottom-0 bg-gradient-to-t from-[#0F0F0F] z-10">
+      </div>
+
+      <div className="absolute h-[348px] top-[91%]  left-0 right-0 bottom-0 bg-[#0F0F0F] z-10">
+      </div>
+
+      <div className="absolute h-[448px] top-[95%]  left-0 right-0 bottom-0 bg-[#0F0F0F] z-10">
+      </div>
 
       
     </div>

@@ -37,8 +37,8 @@ const GlobalServer = () => {
       </div>
 
       {/* Server features grid */}
-      <div className="w-full lg:w-full z-10 pb-16 flex flex-col items-center justify-center mt-10 lg:mt-20 bg-black">
-        <div className="md:w-full md:flex md:justify-center  lg:flex lg:justify-center space-y-5 md:space-y-0 md:gap-8 lg:gap-10 rounded-lg border border-[#ffffff35] bg-[#ffffff25] py-5 px-10 overflow-hidden">
+      <div className="w-full lg:w-full z-20 pb-16 flex flex-col items-center justify-center mt-10 lg:mt-20">
+        <div className=" md:flex md:justify-center  lg:flex lg:justify-center space-y-5 md:space-y-0 md:gap-8 lg:gap-10 rounded-lg border border-[#ffffff35] bg-[#ffffff25] py-5 px-10 overflow-hidden">
           <div className="text-center">
             <h1 className="text-lg md:text-2xl lg:text-4xl font-bold text-purple-700">
               100+
