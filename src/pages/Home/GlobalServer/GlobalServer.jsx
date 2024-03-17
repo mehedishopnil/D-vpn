@@ -1,18 +1,12 @@
-import backgroundImage from "../../../assets/earthShape.svg";
 import iphoneIcon from "../../../assets/iPhone 14 Pro.svg";
 import { TbWorld } from "react-icons/tb";
 
 const GlobalServer = () => {
   return (
     <div
-      className="flex flex-col items-center mt-10 md:mt-32"
-      style={{
-        backgroundImage: `url(${backgroundImage})`,
-        backgroundSize: "cover",
-        width: "100%",
-      }}
-    >
-      <div className="relative">
+      className="flex flex-col items-center mt-10 md:mt-32 z-20
+      ">
+      <div className="relative z-10">
         {/* Main content */}
         <div className="flex flex-col items-center gap-5 text-white text-center pt-16">
           <p className="text-xl md:text-2xl font-bold text-purple-700">
@@ -28,7 +22,7 @@ const GlobalServer = () => {
         </div>
 
         {/* Image (iphoneIcon) */}
-        <div className="relative flex justify-center mt-10">
+        <div className="relative flex justify-center ">
           <img
             className="w-3/4 h-10/12 md:w-full md:max-w-md lg:w-[544px] lg:h-[924px] mx-auto"
             src={iphoneIcon}

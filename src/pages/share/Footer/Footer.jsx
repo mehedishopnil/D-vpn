@@ -10,7 +10,7 @@ const Footer = () => {
     <div className='mt-20'>
       <footer className="footer grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 p-10 text-base-content">
         {/* Company */}
-        <nav>
+        <nav className='z-10'>
           <h6 className="footer-title text-white">Company</h6>
           <a className="link link-hover text-[#797E86]">About</a>
           <a className="link link-hover text-[#797E86]">Pricing</a>
@@ -22,7 +22,7 @@ const Footer = () => {
         </nav>
         
         {/* Products */}
-        <nav>
+        <nav className='z-10'>
           <h6 className="footer-title text-white">Products</h6>
           <a className="link link-hover text-[#797E86]">VPN for Windows</a>
           <a className="link link-hover text-[#797E86]">VPN for Mac</a>
@@ -35,7 +35,7 @@ const Footer = () => {
         </nav>
         
         {/* Other Resources */}
-        <nav>
+        <nav className='z-10'>
           <h6 className="footer-title text-white">Other Resources</h6>
           <a className="link link-hover text-[#797E86]">What is My IP</a>
           <a className="link link-hover text-[#797E86]">How IP Works</a>
@@ -47,7 +47,7 @@ const Footer = () => {
         </nav>
         
         {/* Legal */}
-        <nav>
+        <nav className='z-10'>
           <h6 className="footer-title text-white">Legal</h6>
           <a className="link link-hover text-[#797E86]">Imprint</a>
           <a className="link link-hover text-[#797E86]">Privacy Policy</a>
@@ -58,7 +58,7 @@ const Footer = () => {
         </nav>
         
         {/* Social */}
-        <nav>
+        <nav className='z-10'>
           <h6 className="footer-title text-white">Social</h6>
           <a className="link link-hover text-[#797E86]">Twitter</a>
           <a className="link link-hover text-[#797E86]">LinkedIn</a>
@@ -69,7 +69,7 @@ const Footer = () => {
       </footer>
 
       {/* Bottom Footer */}
-      <footer className="footer px-10 py-4   text-base-content pb-5">
+      <footer className="footer px-10 py-4 z-10  text-base-content pb-5">
         <aside className="items-center grid-flow-col">
           
           <p className="text-[#797E86]">

@@ -144,6 +144,14 @@ const Main = () => {
         ></div>
       </div>
 
+      {/* Background image on the bottom part of the page */}
+      <img
+        className="absolute bottom-0 left-0 w-full z-0"
+        src={earthBgImage}
+        alt="Background"
+      />
+
+      
     </div>
   );
 };
