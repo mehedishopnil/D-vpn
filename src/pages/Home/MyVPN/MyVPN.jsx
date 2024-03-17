@@ -5,13 +5,13 @@ import icon3 from "../../../assets/connctivity.svg";
 
 const MyVPN = () => {
   return (
-  <div className="relative w-full my-[150px] overflow-hidden">
+  <div className="relative w-full my-[150px]">
      <div className="flex flex-col items-center w-full ">
-      <h1 className="w-10/12 leading-sung  text-3xl lg:leading-snug text-center lg:text-5xl text-white">
+      <h1 className="w-10/12 lg:w-1/2 leading-sung  text-3xl lg:leading-snug text-center lg:text-5xl text-white">
         What Makes MyVPN a Good Choice
       </h1>
 
-      <div className="flex flex-col gap-5 lg:flex-row justify-center mt-[50px] lg:gap-5">
+      <div className="lg:w-full flex flex-col gap-5 lg:flex-row justify-center mt-[50px] lg:gap-5">
         <div className="lg:w-[411px] space-y-3 p-8 lg:space-y-5 rounded-lg bg-[#ffffff10] border border-[#ffffff23] bg-blur">
           <img
             className="w-[73px] h-[73px] p-2 rounded-lg bg-[#00000010] border border-[#ffffff23]"

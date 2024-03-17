@@ -5,8 +5,8 @@ import { TbWorldSearch } from "react-icons/tb";
 
 const AvailableServers = () => {
   return (
-    <div className="relative mt-32 lg:mt-[550px] lg:grid lg:grid-cols-2">
-      <div className="relative lg:flex lg:justify-center lg:w-[589px] bg-[#ffffff10] border border-[#ffffff23] space-y-4 lg:space-y-2 px-6 lg:px-10 py-8 rounded-xl">
+    <div className="lg:w-full relative mt-32 lg:space-x-16 lg:mt-[550px] lg:grid lg:grid-cols-2">
+      <div className="relative lg:flex lg:justify-center  bg-[#ffffff10] border border-[#ffffff23] space-y-4 lg:space-y-2 px-6 lg:px-10 py-8 rounded-xl">
         {/* Server List Container */}
         <div className="rounded-xl bg-white p-4">
           <h1 className="text-xl lg:text-2xl font-semibold pb-4">
