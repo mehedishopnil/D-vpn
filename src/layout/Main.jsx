@@ -151,7 +151,7 @@ const Main = () => {
         alt="Background"
       />
 
-      <div className="absolute h-[796px] top-[83%]  left-0 right-0 bottom-0 bg-gradient-to-t from-[#0F0F0F] z-10">
+      <div className="absolute md:-[456px] lg:h-[796px] top-[83%]  left-0 right-0 bottom-0 bg-gradient-to-t from-[#0F0F0F] z-10">
       </div>
 
       <div className="absolute h-[348px] top-[91%]  left-0 right-0 bottom-0 bg-[#0F0F0F] z-10">

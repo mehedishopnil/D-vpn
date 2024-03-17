@@ -38,10 +38,10 @@ const TotalSupply = () => {
 
   return (
     <div className="container mx-auto my-8 ">
-      <div className="flex flex-col lg:grid lg:grid-cols-5 md:flex-col md:items-center items-center gap-10 sm:flex-row sm:justify-center sm:gap-5 border border-[#ffffff30] rounded-xl shadow-inner shadow-[#63079F] bg-[#FFFFFF20] p-8">
+      <div className="flex flex-col sm:flex-col lg:grid lg:grid-cols-5 md:flex-col md:items-center items-center gap-10  sm:justify-center sm:gap-5 border border-[#ffffff30] rounded-xl shadow-inner shadow-[#63079F] bg-[#FFFFFF20] p-8">
 
         {/* Chart */}
-        <div className="flex md:flex md:flex-col lg:col-span-3  md:items-center flex-col items-center  w-full md:w-full sm:w-[500px] relative">
+        <div className="flex  md:flex md:flex-col lg:col-span-3  md:items-center flex-col items-center  w-full md:w-full sm:w-[500px] relative">
           <div className="flex justify-center">
             <ApexCharts
               type="donut"
@@ -68,16 +68,16 @@ const TotalSupply = () => {
               key={index}
               className="flex flex-col rounded-md w-full h-[74px] px-[25.5px] py-[2.5px] border border-[#ffffff30] bg-[#ffffff10]"
             >
-              <div className="flex justify-between items-center h-full">
+              <div className="flex justify-between items-center gap-2 h-full">
                 <div>
-                  <h1 className="text-[18px] font-bold text-white">11% Team</h1>
-                  <p className="text-[15px] text-[#ffffff60]">
+                  <h1 className="text-[15px] md:text-[18px] lg:text-[18px] font-bold text-white">11% Team</h1>
+                  <p className="text-[12px] md:text-[15px] lg:text-[15px] text-[#ffffff60]">
                     Lorem ipsum dolor sit amet
                   </p>
                 </div>
                 <div>
                   <p className="text-[15px] text-[#ffffff70]">Amount</p>
-                  <h1 className="text-[17px] font-bold text-white">5,500,000</h1>
+                  <h1 className="text-[14px] md:text-[17px] lg:text-[17px] font-bold text-white">5,500,000</h1>
                 </div>
               </div>
             </div>
