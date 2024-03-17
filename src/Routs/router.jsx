@@ -6,7 +6,6 @@ import Home from "../pages/Home/Home";
 import Main from "../layout/Main";
 
 
-
   export const router = createBrowserRouter([
     {
       path: "/",

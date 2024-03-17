@@ -37,15 +37,16 @@ const TotalSupply = () => {
   const legendPosition = "bottom";
 
   return (
-    <div className="container mx-auto my-8 overflow-hidden">
-      <div className="flex flex-col items-center gap-10 sm:flex-row sm:justify-center sm:gap-5 border border-[#ffffff30] rounded-xl shadow-inner shadow-[#63079F] bg-[#FFFFFF20] p-8">
+    <div className="container mx-auto my-8 ">
+      <div className="flex flex-col lg:grid lg:grid-cols-5 md:flex-col md:items-center items-center gap-10 sm:flex-row sm:justify-center sm:gap-5 border border-[#ffffff30] rounded-xl shadow-inner shadow-[#63079F] bg-[#FFFFFF20] p-8">
+
         {/* Chart */}
-        <div className="flex flex-col items-center w-full sm:w-[500px] relative">
+        <div className="flex md:flex md:flex-col lg:col-span-3  md:items-center flex-col items-center  w-full md:w-full sm:w-[500px] relative">
           <div className="flex justify-center">
             <ApexCharts
               type="donut"
-              height={windowWidth >= 768 ? 400 : 300}
-              width={windowWidth >= 768 ? 500 : 300}
+              height={windowWidth >= 768 ? (windowWidth >= 1024 ? 400 : 300) : 200}
+              width={windowWidth >= 768 ? (windowWidth >= 1024 ? 500 : 400) : 300}
               series={chartSeries}
               options={chartOptions}
               legend={legendPosition}
@@ -53,14 +54,14 @@ const TotalSupply = () => {
             />
           </div>
           {/* Total Supply */}
-          <div className=" lg:absolute mt-10 lg:mt-0 lg:left-[200px] top-1/2 left-0 transform -translate-x-1/2 -translate-y-1/2  text-center  text-white">
-            <h1 className="text-[14px] lg:text-[18px] font-bold">Total Supply</h1>
-            <h1 className="text-[18px] lg:text-[24px] font-bold">50,000,000</h1>
+          <div className="lg:absolute lg:top-[35%] lg:mr-[15%] mt-5 mr-20 md:text-right text-center text-white">
+            <h1 className="text-sm md:text-lg font-bold">Total Supply</h1>
+            <h1 className="text-lg md:text-xl font-bold">50,000,000</h1>
           </div>
         </div>
 
         {/* Details */}
-        <div className="flex flex-col gap-3 w-full sm:w-[400px]">
+        <div className="flex flex-col lg:col-span-2 lg:items-end gap-3 w-full lg:w-full sm:w-[400px]">
           {/* Repeat for each detail */}
           {[...Array(8)].map((_, index) => (
             <div
