@@ -13,7 +13,7 @@ const GlobalServer = () => {
           <h1 className="text-2xl md:text-4xl sm:w-[250px]  md:w-[350px] lg:w-[500px] leading-10 md:leading-14 font-bold mb-4">
             Ultra-Fast Servers Around the World
           </h1>
-          <p className="text-sm md:text-base lg:text-lg font-normal sm:w-[260px] md:w-[428px] lg:w-[628px] mx-auto">
+          <p className="text-sm md:text-base lg:text-lg font-normal sm:w-[260px] md:w-[380px] lg:w-[628px] mx-auto">
             Choose among 1000+ high-speed VPN servers and enjoy fast and stable
             connections anywhere.
           </p>
@@ -26,7 +26,7 @@ const GlobalServer = () => {
             src={iphoneIcon}
             alt="iPhone Icon"
           />
-          <div className="absolute w-16 h-16 md:w-16 md:h-16 lg:w-32 lg:h-32 bg-[#701CB0] rounded-full top-[50%] md:top-[35%] lg:top-[35%] sm:right-[5%] right-[10%] lg:right-[0] transform -translate-y-1/2 lg:translate-y-0">
+          <div className="absolute w-16 h-16 md:w-16 md:h-16 lg:w-32 lg:h-32 bg-[#701CB0] rounded-full top-[50%] md:top-[50%] lg:top-[35%] sm:right-[5%] right-[10%] lg:right-[0] transform -translate-y-1/2 lg:translate-y-0">
             <p className="absolute text-white text-3xl md:text-4xl lg:text-6xl top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
               <TbWorld />
             </p>
@@ -35,8 +35,8 @@ const GlobalServer = () => {
       </div>
 
       {/* Server features grid */}
-      <div className="w-full lg:w-full pb-16 flex flex-col items-center justify-center mt-10  sm:-mt-28 lg:-mt-36 z-20">
-        <div className="sm:flex sm:justify-center md:flex md:justify-center lg:flex lg:justify-center space-y-5 sm:space-y-0 md:space-y-0 sm:gap-5 md:gap-8 lg:gap-10 rounded-lg md:-mt-64 lg:mb-20 border border-[#ffffff35] bg-[#1a1a1a] py-5 px-10 ">
+      <div className="w-full lg:w-full pb-16 flex flex-col items-center justify-center mt-10  sm:-mt-28 md:-mt-28 lg:-mt-36 z-20">
+        <div className="sm:flex sm:justify-center md:flex md:justify-center lg:flex lg:justify-center space-y-5 sm:space-y-0 md:space-y-0 sm:gap-5 md:gap-8 lg:gap-10 rounded-lg  lg:mb-20 border border-[#ffffff35] bg-[#1a1a1a] py-5 px-10 ">
           <div className="text-center">
             <h1 className="text-lg md:text-2xl lg:text-4xl font-bold text-purple-700">
               100+

@@ -146,18 +146,18 @@ const Main = () => {
 
       {/* Background image on the bottom part of the page */}
       <img
-        className="absolute bottom-0 left-0 w-full z-0"
+        className="absolute  bottom-0 left-0 w-full sm:top-[85%]  z-0"
         src={earthBgImage}
         alt="Background"
       />
 
-      <div className="absolute md:-[456px] lg:h-[796px] top-[83%]  left-0 right-0 bottom-0 bg-gradient-to-t from-[#0F0F0F] z-10">
+      <div className="absolute md:-[400px] lg:h-[796px] top-[83%]   left-0 right-0 bottom-0 bg-gradient-to-t from-[#0F0F0F] z-10">
       </div>
 
-      <div className="absolute h-[348px] top-[91%]  left-0 right-0 bottom-0 bg-[#0F0F0F] z-10">
+      <div className="absolute h-[348px] top-[91%] md:top-[93%] left-0 right-0 bottom-0 bg-[#0F0F0F] z-10">
       </div>
 
-      <div className="absolute h-[448px] top-[95%]  left-0 right-0 bottom-0 bg-[#0F0F0F] z-10">
+      <div className="absolute h-[448px] md:h-[400px] top-[95%] md:top-[96%]  left-0 right-0 bottom-0 bg-[#0F0F0F] z-10">
       </div>
 
       
