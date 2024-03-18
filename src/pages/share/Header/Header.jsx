@@ -15,7 +15,7 @@ const Header = () => {
       {/* Header container */}
       <div className="container mx-auto py-5 px-4 lg:px-8 flex justify-between items-center">
         {/* Logo and mobile menu button */}
-        <div className="flex items-center">
+        <div className="flex z-10 items-center">
           {/* Mobile menu button */}
           <button
             className="block lg:hidden text-white focus:outline-none"
@@ -90,15 +90,15 @@ const Header = () => {
         </div>
 
         {/* Login and Download buttons */}
-        <div className="flex items-center">
+        <div className="flex items-center gap-3">
           {/* Login button */}
-          <Link to="/">
+          <Link to="/" className="z-10">
             <button className="hidden lg:block btn-outline rounded-full text-sm font-extrabold px-8 py-3 text-white border-[#55585E] hover:bg-[#592e8e]">
               Login
             </button>
           </Link>
           {/* Download button */}
-          <Link to="/">
+          <Link  to="/" className="z-10">
             <button className="btn text-white bg-[#701CB0] rounded-full text-sm font-extrabold px-8 py-3 hover:bg-[#592e8e]">
               Download
             </button>
