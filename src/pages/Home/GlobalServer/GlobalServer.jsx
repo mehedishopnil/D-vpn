@@ -22,7 +22,7 @@ const GlobalServer = () => {
         {/* Image (iphoneIcon) */}
         <div className="relative flex justify-center ">
           <img
-            className="w-3/4 h-10/12 md:max-w-md sm:w-[200px] sm:h-[524px] md:w-[300px] md:h-[624px] lg:w-[544px] lg:h-[824px] mx-auto"
+            className="w-3/4 h-10/12 md:max-w-md sm:w-[200px] sm:h-[524px] md:w-[300px] md:h-[624px] lg:w-[644px] lg:h-[924px] mx-auto"
             src={iphoneIcon}
             alt="iPhone Icon"
           />
@@ -35,8 +35,8 @@ const GlobalServer = () => {
       </div>
 
       {/* Server features grid */}
-      <div className="w-full lg:w-full pb-16 flex flex-col items-center justify-center mt-10  sm:-mt-28 md:-mt-28 lg:-mt-32 z-20">
-        <div className="sm:flex sm:justify-center md:flex md:justify-center lg:flex lg:justify-center space-y-5 sm:space-y-0 md:space-y-0 sm:gap-5 md:gap-8 lg:gap-10 rounded-lg  lg:mb-20 border border-[#ffffff35] bg-[#1a1a1a] py-5 px-10 ">
+      <div className="w-full  pb-16 flex flex-col items-center justify-center mt-10  sm:-mt-28 md:-mt-28 lg:-mt-32 z-20">
+        <div className=" sm:flex sm:justify-center md:flex md:justify-center lg:flex lg:justify-center space-y-5 sm:space-y-0 md:space-y-0 sm:gap-5 md:gap-8 lg:gap-10 rounded-lg  lg:mb-20 border border-[#ffffff35] bg-[#1a1a1a] py-5 px-10 ">
           <div className="text-center">
             <h1 className="text-lg md:text-2xl lg:text-4xl font-bold text-purple-700">
               100+

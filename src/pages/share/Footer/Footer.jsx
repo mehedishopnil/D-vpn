@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
     <div className='mt-20 '>
-      <footer className="footer z-20 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 p-10 text-base-content">
+      <footer className=" footer z-20 grid justify-center grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 p-10 text-lg">
         {/* Company */}
         <nav className='z-20'>
           <h6 className="footer-title text-white">Company</h6>
@@ -69,7 +69,7 @@ const Footer = () => {
       </footer>
 
       {/* Bottom Footer */}
-      <footer className="footer px-10 py-4 text-base-content pb-5">
+      <footer className="footer px-10 py-4 text-lg pb-5">
         <aside className="items-center grid-flow-col z-20">
           
           <p className="text-[#797E86] ">
