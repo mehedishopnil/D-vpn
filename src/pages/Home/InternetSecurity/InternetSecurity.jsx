@@ -34,27 +34,26 @@ const InternetSecurity = () => {
       <div className="relative mt-10 lg:mt-0 lg:w-1/2 ">
         <div className="flex flex-cols justify-end ">
           <div className="flex flex-col lg:block space-y-5 -mb-28 lg:mb-0">
-            <div className="flex justify-center items-center rounded-lg border border-[#6b686d] gap-5 w-[162px] h-[60px] bg-[#FFFFFF25]">
-              <div className="flex justify-center items-center text-white w-[46px] h-[46px] rounded-lg  bg-gradient-to-b from-[#701CB0] to-[#C45EFF]">
-                <p>
+            <div className="flex justify-center items-center rounded-lg border border-[#6b686d] gap-5 w-[130px] h-[45px] md:w-[162px] md:h-[60px] lg:w-[162px] lg:h-[60px] bg-[#FFFFFF25]">
+              <div className="flex justify-center items-center text-white w-[35px] h-[35px] md:w-[46px] md:h-[46px] lg:w-[46px] lg:h-[46px] rounded-lg  bg-gradient-to-b from-[#701CB0] to-[#C45EFF]">
+                <p className="text-sm md:text-lg lg:text-lg ">
                   <FaArrowUp />
                 </p>
               </div>
               <div className="">
-                <p className="text-[#6b686d]">Upload</p>
-                <p className="text-white font-bold">100Mbps</p>
+                <p className="text-[#6b686d] text-sm md:text-lg lg:text-lg ">Upload</p>
+                <p className="text-white text-sm md:text-lg lg:text-lg font-bold">100Mbps</p>
               </div>
             </div>
-
-            <div className="flex justify-center items-center gap-5 rounded-lg border border-[#6b686d] w-[162px] h-[60px] bg-[#FFFFFF25]">
-              <div className="flex justify-center items-center text-white w-[46px] h-[46px] rounded-lg  bg-gradient-to-b from-[#701CB0] to-[#C45EFF]">
-                <p>
-                  <FaArrowDown />
+            <div className="flex justify-center items-center rounded-lg border border-[#6b686d] gap-5 w-[130px] h-[45px] md:w-[162px] md:h-[60px] lg:w-[162px] lg:h-[60px] bg-[#FFFFFF25]">
+              <div className="flex justify-center items-center text-white w-[35px] h-[35px] md:w-[46px] md:h-[46px] lg:w-[46px] lg:h-[46px] rounded-lg  bg-gradient-to-b from-[#701CB0] to-[#C45EFF]">
+                <p className="text-sm md:text-lg lg:text-lg ">
+                  <FaArrowUp />
                 </p>
               </div>
               <div className="">
-                <p className="text-[#6b686d]">Upload</p>
-                <p className="text-white font-bold">300Mbps</p>
+                <p className="text-[#6b686d] text-sm md:text-lg lg:text-lg ">Upload</p>
+                <p className="text-white text-sm md:text-lg lg:text-lg font-bold">100Mbps</p>
               </div>
             </div>
           </div>
@@ -66,11 +65,11 @@ const InternetSecurity = () => {
           className="mx-auto lg:mx-0 lg:w-full lg:max-w-lg"
         />
 
-        <div className=" flex flex-col justify-center items-center w-[240px] h-[187px] p-2 -mt-20 rounded-lg border border-[#6b686d] bg-[#FFFFFF25] gap-5 ">
-          <img src={halfPie} alt="hero" className="" />
-          <h1 className="text-white font-bold text-[28px] -mt-10">57,5</h1>
-          <div className="w-[104px] h-[12px] rounded-full bg-white"></div>
-          <div className="w-[158px] h-[12px] rounded-full -mt-3 bg-white"></div>
+        <div className=" flex flex-col justify-center items-center w-[180px] h-[130px] md:w-[240px] md:h-[187px] lg:w-[240px] lg:h-[187px] p-2 -mt-20 rounded-lg border border-[#6b686d] bg-[#FFFFFF25] gap-5 ">
+          <img src={halfPie} alt="hero" className=" w-[110px] md:w-[150px] lg:w-[150px]" />
+          <h1 className="text-white font-bold text-[20px] md:text-[28px] lg:text-[28px] -mt-10">57,5</h1>
+          <div className="w-[100px] h-[8px] md:w-[104px] md:h-[12px] lg:w-[104px] lg:h-[12px] rounded-full bg-white"></div>
+          <div className="w-[120px] h-[8px] md:w-[158px] md:h-[12px] lg:w-[158px] lg:h-[12px] rounded-full -mt-3 bg-white"></div>
         </div>
       </div>
 
