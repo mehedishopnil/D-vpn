@@ -6,7 +6,7 @@ import halfPie from "../../../assets/halfPieIcone.svg";
 const InternetSecurity = () => {
   return (
     <div className="relative flex flex-col lg:flex-row justify-center items-center lg:space-x-10 px-5 lg:px-20 py-10 lg:py-16 overflow-hidden">
-      <div className="flex flex-col items-center lg:block text-center z-10 lg:text-left lg:w-1/2 space-y-7 relative">
+      <div className="flex flex-col items-center lg:block text-center z-10 lg:text-left md:w-9/12 lg:w-1/2 space-y-7 relative">
         <h2 className="text-white text-4xl lg:text-5xl font-bold leading-tight">
           Access the Internet Securely and Privately
         </h2>
@@ -15,7 +15,7 @@ const InternetSecurity = () => {
           pleasure, but because those who do not know.
         </p>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-2">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 lg:gap-2">
           {[1, 2, 3, 4].map((index) => (
             <div key={index} className="flex gap-2">
               <p className="text-lg text-[#701CB0]">
@@ -31,12 +31,12 @@ const InternetSecurity = () => {
         </button>
       </div>
 
-      <div className="relative mt-10 lg:mt-0 lg:w-1/2 ">
+      <div className="relative mt-10 md:mt-24 lg:mt-0 lg:w-1/2 ">
         <div className="flex flex-cols justify-end ">
           <div className="flex flex-col lg:block space-y-5 -mb-28 lg:mb-0">
-            <div className="flex justify-center items-center rounded-lg border border-[#6b686d] gap-5 w-[130px] h-[45px] md:w-[162px] md:h-[60px] lg:w-[162px] lg:h-[60px] bg-[#FFFFFF25]">
-              <div className="flex justify-center items-center text-white w-[35px] h-[35px] md:w-[46px] md:h-[46px] lg:w-[46px] lg:h-[46px] rounded-lg  bg-gradient-to-b from-[#701CB0] to-[#C45EFF]">
-                <p className="text-sm md:text-lg lg:text-lg ">
+            <div className="flex justify-center z-20 md:z-20 items-center rounded-lg border border-[#6b686d] gap-5 w-[130px] h-[45px] md:w-[162px] md:h-[60px] lg:w-[162px] lg:h-[60px] bg-[#FFFFFF25]">
+              <div className="flex justify-center  items-center text-white w-[35px] h-[35px] md:w-[46px] md:h-[46px] lg:w-[46px] lg:h-[46px] rounded-lg  bg-gradient-to-b from-[#701CB0] to-[#C45EFF]">
+                <p className="text-sm  md:text-lg lg:text-lg ">
                   <FaArrowUp />
                 </p>
               </div>
@@ -45,7 +45,7 @@ const InternetSecurity = () => {
                 <p className="text-white text-sm md:text-lg lg:text-lg font-bold">100Mbps</p>
               </div>
             </div>
-            <div className="flex justify-center items-center rounded-lg border border-[#6b686d] gap-5 w-[130px] h-[45px] md:w-[162px] md:h-[60px] lg:w-[162px] lg:h-[60px] bg-[#FFFFFF25]">
+            <div className="flex justify-center z-10 items-center rounded-lg border border-[#6b686d] gap-5 w-[130px] h-[45px] md:w-[162px] md:h-[60px] lg:w-[162px] lg:h-[60px] bg-[#FFFFFF25]">
               <div className="flex justify-center items-center text-white w-[35px] h-[35px] md:w-[46px] md:h-[46px] lg:w-[46px] lg:h-[46px] rounded-lg  bg-gradient-to-b from-[#701CB0] to-[#C45EFF]">
                 <p className="text-sm md:text-lg lg:text-lg ">
                   <FaArrowUp />
@@ -62,14 +62,14 @@ const InternetSecurity = () => {
         <img
           src={securityIcon}
           alt="hero"
-          className="mx-auto lg:mx-0 lg:w-full lg:max-w-lg"
+          className="mx-auto z-0 lg:mx-0 lg:w-full lg:max-w-lg"
         />
 
-        <div className=" flex flex-col justify-center items-center w-[180px] h-[130px] md:w-[240px] md:h-[187px] lg:w-[240px] lg:h-[187px] p-2 -mt-20 rounded-lg border border-[#6b686d] bg-[#FFFFFF25] gap-5 ">
+        <div className=" flex flex-col z-20 justify-center items-center w-[180px] h-[130px] md:w-[240px] md:h-[187px] lg:w-[240px] lg:h-[187px] p-2 -mt-20 rounded-lg border border-[#6b686d] bg-[#FFFFFF25] gap-5 ">
           <img src={halfPie} alt="hero" className=" w-[110px] md:w-[150px] lg:w-[150px]" />
           <h1 className="text-white font-bold text-[20px] md:text-[28px] lg:text-[28px] -mt-10">57,5</h1>
-          <div className="w-[100px] h-[8px] md:w-[104px] md:h-[12px] lg:w-[104px] lg:h-[12px] rounded-full bg-white"></div>
-          <div className="w-[120px] h-[8px] md:w-[158px] md:h-[12px] lg:w-[158px] lg:h-[12px] rounded-full -mt-3 bg-white"></div>
+          <div className="w-[100px] z-10 h-[8px] md:w-[104px] md:h-[12px] lg:w-[104px] lg:h-[12px] rounded-full bg-white"></div>
+          <div className="w-[120px] z-10 h-[8px] md:w-[158px] md:h-[12px] lg:w-[158px] lg:h-[12px] rounded-full -mt-3 bg-white"></div>
         </div>
       </div>
 

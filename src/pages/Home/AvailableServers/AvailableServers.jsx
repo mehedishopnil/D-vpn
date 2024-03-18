@@ -5,8 +5,8 @@ import { TbWorldSearch } from "react-icons/tb";
 
 const AvailableServers = () => {
   return (
-    <div className="lg:w-full relative mt-32 lg:space-x-16 lg:mt-[550px] lg:grid lg:grid-cols-2">
-      <div className="relative lg:flex lg:justify-center  bg-[#ffffff10] border border-[#ffffff23] space-y-4 lg:space-y-2 px-6 lg:px-10 py-8 rounded-xl">
+    <div className="lg:w-full relative mt-32 lg:space-x-16 md:mt-40 lg:mt-[280px] lg:grid lg:grid-cols-2 md:grid md:grid-cols-2">
+      <div className="relative md:flex lg:flex lg:justify-center md:justify-center  bg-[#ffffff10] border border-[#ffffff23] space-y-4 lg:space-y-2 px-6 lg:px-10 py-8 rounded-xl">
         {/* Server List Container */}
         <div className="rounded-xl bg-white p-4">
           <h1 className="text-xl lg:text-2xl font-semibold pb-4">
@@ -49,7 +49,7 @@ const AvailableServers = () => {
       </div>
 
       {/* Content Section */}
-      <div className="mt-8 flex flex-col items-center lg:flex lg:flex-col lg:justify-center lg:items-start z-10 lg:w-10/12 text-center lg:text-left space-y-6 lg:space-y-7 px-6 lg:px-0">
+      <div className="mt-8 flex flex-col items-center lg:flex lg:flex-col lg:justify-center md:flex md:justify-center lg:items-start z-10 lg:w-10/12 text-center lg:text-left space-y-6 lg:space-y-7 px-6 lg:px-0">
         <h2 className="text-3xl lg:text-5xl leading-tight text-white">
           More Than 100 Server Options are Available
         </h2>

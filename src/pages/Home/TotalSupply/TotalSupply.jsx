@@ -38,7 +38,7 @@ const TotalSupply = () => {
 
   return (
     <div className="container mx-auto my-8 ">
-      <div className="flex flex-col sm:flex-col lg:grid lg:grid-cols-5 md:flex-col md:items-center items-center gap-10  sm:justify-center sm:gap-5 border border-[#ffffff30] rounded-xl shadow-inner shadow-[#63079F] bg-[#FFFFFF20] p-8">
+      <div className="flex flex-col sm:flex-col lg:grid lg:grid-cols-5 md:flex-col md:items-center items-center gap-10  sm:justify-center sm:gap-5 z-20 border border-[#ffffff30] rounded-xl shadow-inner shadow-[#63079F] bg-[#FFFFFF20] p-8">
 
         {/* Chart */}
         <div className="flex  md:flex md:flex-col lg:col-span-3  md:items-center flex-col items-center  w-full md:w-full sm:w-[500px] relative">
@@ -54,7 +54,7 @@ const TotalSupply = () => {
             />
           </div>
           {/* Total Supply */}
-          <div className="lg:absolute lg:top-[35%] lg:mr-[15%] mt-5 mr-20 md:text-right text-center text-white">
+          <div className="lg:absolute lg:top-[35%] lg:mr-[20%] mt-5 mr-20 md:text-right text-center text-white">
             <h1 className="text-sm md:text-lg font-bold">Total Supply</h1>
             <h1 className="text-lg md:text-xl font-bold">50,000,000</h1>
           </div>

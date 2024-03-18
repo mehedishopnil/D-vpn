@@ -37,7 +37,7 @@ const Main = () => {
       </div>
 
       {/* Abstract image */}
-      <div className="absolute top-[7.5%] right-0 bottom-0  lg:block">
+      <div className="absolute top-[7.5%] md:top-[6%] right-0 bottom-0 ">
         <img className="w-[1980px]" src={spinAbstract} alt="" />
       </div>
 
@@ -90,7 +90,7 @@ const Main = () => {
       {/* Background image on the left side for decentralised VPN section */}
       <div className="absolute top-1/2 lg:top-[50%] left-0 lg:left-0 transform -translate-y-1/2 rotate-180 rounded-l-full overflow-hidden ">
         <img
-          className="w-full h-auto lg:h-full mb-[200px]"
+          className="w-full  h-auto lg:h-full mb-[200px]"
           src={leftSideBg}
           alt=""
         />
@@ -146,7 +146,7 @@ const Main = () => {
 
       {/* Background image on the bottom part of the page */}
       <img
-        className="absolute  bottom-0 left-0 w-full sm:top-[85%] lg:top-[77%]  z-0"
+        className="absolute  bottom-0 left-0 w-full sm:top-[85%] lg:top-[76.5%]  z-0"
         src={earthBgImage}
         alt="Background"
       />
@@ -157,7 +157,7 @@ const Main = () => {
       <div className="absolute h-[348px] top-[91%] md:top-[93%] left-0 right-0 bottom-0 bg-[#0F0F0F] z-10">
       </div>
 
-      <div className="absolute h-[448px] md:h-[400px] lg:h-[448px] top-[95%] md:top-[96%]  left-0 right-0 bottom-0 bg-[#0F0F0F] z-10">
+      <div className="absolute h-[448px] md:h-[400px] lg:h-[290px] top-[95%] md:top-[96%]  left-0 right-0 bottom-0 bg-[#0F0F0F] z-10">
       </div>
 
       
