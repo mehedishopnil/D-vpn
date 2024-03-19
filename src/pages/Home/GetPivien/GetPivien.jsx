@@ -27,7 +27,7 @@ const GetPivien = () => {
         <img
           src={mackbookIphone}
           alt="hero"
-          className="mx-auto lg:mx-0 md:w-8/12 lg:w-full lg:max-w-lg"
+          className="mx-auto lg:mx-0 sm:w-7/12 md:w-8/12 lg:w-full lg:max-w-lg"
         />
       </div>
     </div>

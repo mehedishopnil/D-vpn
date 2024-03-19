@@ -37,7 +37,7 @@ const Main = () => {
       </div>
 
       {/* Abstract image */}
-      <div className="absolute top-[7.5%] md:top-[6%] right-0 bottom-0 ">
+      <div className="absolute top-[7.5%] sm:top-[7%] md:top-[6%] lg:top-[7%] right-0 bottom-0 ">
         <img className="w-[1980px]" src={spinAbstract} alt="" />
       </div>
 
